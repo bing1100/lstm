@@ -1,0 +1,5220 @@
+2021-12-28 06:03:35.901707: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-12-28 06:03:35.902811: I tensorflow/core/common_runtime/process_util.cc:146] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+(25000,)
+
+Start of epoch 0
+Training loss (for one batch) at step 0: 0.6929
+Seen so far: 64 samples
+Training acc over epoch: 0.5469
+Training loss (for one batch) at step 1: 0.6894
+Seen so far: 128 samples
+Training acc over epoch: 0.6016
+Training loss (for one batch) at step 2: 0.6907
+Seen so far: 192 samples
+Training acc over epoch: 0.5938
+Training loss (for one batch) at step 3: 0.6958
+Seen so far: 256 samples
+Training acc over epoch: 0.5586
+Training loss (for one batch) at step 4: 0.6925
+Seen so far: 320 samples
+Training acc over epoch: 0.5500
+Training loss (for one batch) at step 5: 0.6913
+Seen so far: 384 samples
+Training acc over epoch: 0.5469
+Training loss (for one batch) at step 6: 0.6955
+Seen so far: 448 samples
+Training acc over epoch: 0.5379
+Training loss (for one batch) at step 7: 0.6884
+Seen so far: 512 samples
+Training acc over epoch: 0.5391
+Training loss (for one batch) at step 8: 0.6964
+Seen so far: 576 samples
+Training acc over epoch: 0.5312
+Training loss (for one batch) at step 9: 0.6951
+Seen so far: 640 samples
+Training acc over epoch: 0.5266
+Training loss (for one batch) at step 10: 0.6957
+Seen so far: 704 samples
+Training acc over epoch: 0.5213
+Training loss (for one batch) at step 11: 0.6914
+Seen so far: 768 samples
+Training acc over epoch: 0.5195
+Training loss (for one batch) at step 12: 0.6978
+Seen so far: 832 samples
+Training acc over epoch: 0.5144
+Training loss (for one batch) at step 13: 0.6906
+Seen so far: 896 samples
+Training acc over epoch: 0.5123
+Training loss (for one batch) at step 14: 0.6921
+Seen so far: 960 samples
+Training acc over epoch: 0.5104
+Training loss (for one batch) at step 15: 0.6926
+Seen so far: 1024 samples
+Training acc over epoch: 0.5107
+Training loss (for one batch) at step 16: 0.6947
+Seen so far: 1088 samples
+Training acc over epoch: 0.5064
+Training loss (for one batch) at step 17: 0.6913
+Seen so far: 1152 samples
+Training acc over epoch: 0.5095
+Training loss (for one batch) at step 18: 0.6915
+Seen so far: 1216 samples
+Training acc over epoch: 0.5132
+Training loss (for one batch) at step 19: 0.6888
+Seen so far: 1280 samples
+Training acc over epoch: 0.5172
+Training loss (for one batch) at step 20: 0.6884
+Seen so far: 1344 samples
+Training acc over epoch: 0.5208
+Training loss (for one batch) at step 21: 0.6885
+Seen so far: 1408 samples
+Training acc over epoch: 0.5227
+Training loss (for one batch) at step 22: 0.6938
+Seen so far: 1472 samples
+Training acc over epoch: 0.5204
+Training loss (for one batch) at step 23: 0.7044
+Seen so far: 1536 samples
+Training acc over epoch: 0.5150
+Training loss (for one batch) at step 24: 0.6856
+Seen so far: 1600 samples
+Training acc over epoch: 0.5163
+Training loss (for one batch) at step 25: 0.6743
+Seen so far: 1664 samples
+Training acc over epoch: 0.5210
+Training loss (for one batch) at step 26: 0.6949
+Seen so far: 1728 samples
+Training acc over epoch: 0.5191
+Training loss (for one batch) at step 27: 0.7009
+Seen so far: 1792 samples
+Training acc over epoch: 0.5156
+Training loss (for one batch) at step 28: 0.6846
+Seen so far: 1856 samples
+Training acc over epoch: 0.5162
+Training loss (for one batch) at step 29: 0.6900
+Seen so far: 1920 samples
+Training acc over epoch: 0.5151
+Training loss (for one batch) at step 30: 0.6803
+Seen so far: 1984 samples
+Training acc over epoch: 0.5156
+Validation acc: 0.4996
+Time taken: 40.62s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 31: 0.6763
+Seen so far: 2048 samples
+Training acc over epoch: 0.5181
+Training loss (for one batch) at step 32: 0.6905
+Seen so far: 2112 samples
+Training acc over epoch: 0.5170
+Training loss (for one batch) at step 33: 0.6890
+Seen so far: 2176 samples
+Training acc over epoch: 0.5161
+Training loss (for one batch) at step 34: 0.6823
+Seen so far: 2240 samples
+Training acc over epoch: 0.5165
+Training loss (for one batch) at step 35: 0.6854
+Seen so far: 2304 samples
+Training acc over epoch: 0.5174
+Training loss (for one batch) at step 36: 0.6828
+Seen so far: 2368 samples
+Training acc over epoch: 0.5186
+Training loss (for one batch) at step 37: 0.6830
+Seen so far: 2432 samples
+Training acc over epoch: 0.5197
+Training loss (for one batch) at step 38: 0.6752
+Seen so far: 2496 samples
+Training acc over epoch: 0.5208
+Training loss (for one batch) at step 39: 0.6866
+Seen so far: 2560 samples
+Training acc over epoch: 0.5215
+Training loss (for one batch) at step 40: 0.6845
+Seen so far: 2624 samples
+Training acc over epoch: 0.5210
+Training loss (for one batch) at step 41: 0.6679
+Seen so far: 2688 samples
+Training acc over epoch: 0.5219
+Training loss (for one batch) at step 42: 0.6441
+Seen so far: 2752 samples
+Training acc over epoch: 0.5240
+Training loss (for one batch) at step 43: 1.0953
+Seen so far: 2816 samples
+Training acc over epoch: 0.5231
+Training loss (for one batch) at step 44: 0.6571
+Seen so far: 2880 samples
+Training acc over epoch: 0.5253
+Training loss (for one batch) at step 45: 0.6892
+Seen so far: 2944 samples
+Training acc over epoch: 0.5251
+Training loss (for one batch) at step 46: 0.6802
+Seen so far: 3008 samples
+Training acc over epoch: 0.5263
+Training loss (for one batch) at step 47: 0.6713
+Seen so far: 3072 samples
+Training acc over epoch: 0.5293
+Training loss (for one batch) at step 48: 0.6763
+Seen so far: 3136 samples
+Training acc over epoch: 0.5312
+Training loss (for one batch) at step 49: 0.6772
+Seen so far: 3200 samples
+Training acc over epoch: 0.5325
+Training loss (for one batch) at step 50: 0.6701
+Seen so far: 3264 samples
+Training acc over epoch: 0.5343
+Training loss (for one batch) at step 51: 0.6788
+Seen so far: 3328 samples
+Training acc over epoch: 0.5358
+Training loss (for one batch) at step 52: 0.6891
+Seen so far: 3392 samples
+Training acc over epoch: 0.5354
+Training loss (for one batch) at step 53: 0.6750
+Seen so far: 3456 samples
+Training acc over epoch: 0.5370
+Training loss (for one batch) at step 54: 0.6696
+Seen so far: 3520 samples
+Training acc over epoch: 0.5378
+Training loss (for one batch) at step 55: 0.6856
+Seen so far: 3584 samples
+Training acc over epoch: 0.5371
+Training loss (for one batch) at step 56: 0.6623
+Seen so far: 3648 samples
+Training acc over epoch: 0.5387
+Training loss (for one batch) at step 57: 0.6835
+Seen so far: 3712 samples
+Training acc over epoch: 0.5380
+Training loss (for one batch) at step 58: 0.6773
+Seen so far: 3776 samples
+Training acc over epoch: 0.5400
+Training loss (for one batch) at step 59: 0.6681
+Seen so far: 3840 samples
+Training acc over epoch: 0.5417
+Training loss (for one batch) at step 60: 0.6804
+Seen so far: 3904 samples
+Training acc over epoch: 0.5423
+Validation acc: 0.5938
+Time taken: 162.24s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 61: 0.6579
+Seen so far: 3968 samples
+Training acc over epoch: 0.5431
+Training loss (for one batch) at step 62: 0.6810
+Seen so far: 4032 samples
+Training acc over epoch: 0.5432
+Training loss (for one batch) at step 63: 0.6801
+Seen so far: 4096 samples
+Training acc over epoch: 0.5430
+Training loss (for one batch) at step 64: 0.6709
+Seen so far: 4160 samples
+Training acc over epoch: 0.5445
+Training loss (for one batch) at step 65: 0.6779
+Seen so far: 4224 samples
+Training acc over epoch: 0.5447
+Training loss (for one batch) at step 66: 0.6737
+Seen so far: 4288 samples
+Training acc over epoch: 0.5457
+Training loss (for one batch) at step 67: 0.6627
+Seen so far: 4352 samples
+Training acc over epoch: 0.5471
+Training loss (for one batch) at step 68: 0.6790
+Seen so far: 4416 samples
+Training acc over epoch: 0.5469
+Training loss (for one batch) at step 69: 0.6860
+Seen so far: 4480 samples
+Training acc over epoch: 0.5469
+Training loss (for one batch) at step 70: 0.6563
+Seen so far: 4544 samples
+Training acc over epoch: 0.5486
+Training loss (for one batch) at step 71: 0.6739
+Seen so far: 4608 samples
+Training acc over epoch: 0.5488
+Training loss (for one batch) at step 72: 0.6713
+Seen so far: 4672 samples
+Training acc over epoch: 0.5494
+Training loss (for one batch) at step 73: 0.6891
+Seen so far: 4736 samples
+Training acc over epoch: 0.5494
+Training loss (for one batch) at step 74: 0.6502
+Seen so far: 4800 samples
+Training acc over epoch: 0.5510
+Training loss (for one batch) at step 75: 0.6642
+Seen so far: 4864 samples
+Training acc over epoch: 0.5514
+Training loss (for one batch) at step 76: 0.6604
+Seen so far: 4928 samples
+Training acc over epoch: 0.5519
+Training loss (for one batch) at step 77: 0.6640
+Seen so far: 4992 samples
+Training acc over epoch: 0.5533
+Training loss (for one batch) at step 78: 0.6569
+Seen so far: 5056 samples
+Training acc over epoch: 0.5550
+Training loss (for one batch) at step 79: 0.6964
+Seen so far: 5120 samples
+Training acc over epoch: 0.5539
+Training loss (for one batch) at step 80: 0.6464
+Seen so far: 5184 samples
+Training acc over epoch: 0.5559
+Training loss (for one batch) at step 81: 0.7007
+Seen so far: 5248 samples
+Training acc over epoch: 0.5545
+Training loss (for one batch) at step 82: 0.6657
+Seen so far: 5312 samples
+Training acc over epoch: 0.5550
+Training loss (for one batch) at step 83: 0.6745
+Seen so far: 5376 samples
+Training acc over epoch: 0.5558
+Training loss (for one batch) at step 84: 0.6598
+Seen so far: 5440 samples
+Training acc over epoch: 0.5570
+Training loss (for one batch) at step 85: 0.6636
+Seen so far: 5504 samples
+Training acc over epoch: 0.5585
+Training loss (for one batch) at step 86: 0.6716
+Seen so far: 5568 samples
+Training acc over epoch: 0.5578
+Training loss (for one batch) at step 87: 0.6471
+Seen so far: 5632 samples
+Training acc over epoch: 0.5595
+Training loss (for one batch) at step 88: 0.6472
+Seen so far: 5696 samples
+Training acc over epoch: 0.5611
+Training loss (for one batch) at step 89: 0.6592
+Seen so far: 5760 samples
+Training acc over epoch: 0.5623
+Training loss (for one batch) at step 90: 0.6596
+Seen so far: 5824 samples
+Training acc over epoch: 0.5630
+Validation acc: 0.6600
+Time taken: 284.15s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 91: 0.6529
+Seen so far: 5888 samples
+Training acc over epoch: 0.5637
+Training loss (for one batch) at step 92: 0.6552
+Seen so far: 5952 samples
+Training acc over epoch: 0.5654
+Training loss (for one batch) at step 93: 0.6568
+Seen so far: 6016 samples
+Training acc over epoch: 0.5667
+Training loss (for one batch) at step 94: 0.6540
+Seen so far: 6080 samples
+Training acc over epoch: 0.5673
+Training loss (for one batch) at step 95: 0.6793
+Seen so far: 6144 samples
+Training acc over epoch: 0.5672
+Training loss (for one batch) at step 96: 0.6334
+Seen so far: 6208 samples
+Training acc over epoch: 0.5696
+Training loss (for one batch) at step 97: 0.6406
+Seen so far: 6272 samples
+Training acc over epoch: 0.5706
+Training loss (for one batch) at step 98: 0.6638
+Seen so far: 6336 samples
+Training acc over epoch: 0.5712
+Training loss (for one batch) at step 99: 0.6583
+Seen so far: 6400 samples
+Training acc over epoch: 0.5717
+Training loss (for one batch) at step 100: 0.6327
+Seen so far: 6464 samples
+Training acc over epoch: 0.5729
+Training loss (for one batch) at step 101: 0.6342
+Seen so far: 6528 samples
+Training acc over epoch: 0.5741
+Training loss (for one batch) at step 102: 0.6533
+Seen so far: 6592 samples
+Training acc over epoch: 0.5748
+Training loss (for one batch) at step 103: 0.6375
+Seen so far: 6656 samples
+Training acc over epoch: 0.5750
+Training loss (for one batch) at step 104: 0.6143
+Seen so far: 6720 samples
+Training acc over epoch: 0.5768
+Training loss (for one batch) at step 105: 0.6404
+Seen so far: 6784 samples
+Training acc over epoch: 0.5781
+Training loss (for one batch) at step 106: 0.6497
+Seen so far: 6848 samples
+Training acc over epoch: 0.5789
+Training loss (for one batch) at step 107: 0.6230
+Seen so far: 6912 samples
+Training acc over epoch: 0.5803
+Training loss (for one batch) at step 108: 0.6283
+Seen so far: 6976 samples
+Training acc over epoch: 0.5813
+Training loss (for one batch) at step 109: 0.6096
+Seen so far: 7040 samples
+Training acc over epoch: 0.5827
+Training loss (for one batch) at step 110: 0.5926
+Seen so far: 7104 samples
+Training acc over epoch: 0.5840
+Training loss (for one batch) at step 111: 0.5758
+Seen so far: 7168 samples
+Training acc over epoch: 0.5858
+Training loss (for one batch) at step 112: 0.5959
+Seen so far: 7232 samples
+Training acc over epoch: 0.5871
+Training loss (for one batch) at step 113: 0.5838
+Seen so far: 7296 samples
+Training acc over epoch: 0.5885
+Training loss (for one batch) at step 114: 0.6426
+Seen so far: 7360 samples
+Training acc over epoch: 0.5894
+Training loss (for one batch) at step 115: 0.5868
+Seen so far: 7424 samples
+Training acc over epoch: 0.5907
+Training loss (for one batch) at step 116: 0.5631
+Seen so far: 7488 samples
+Training acc over epoch: 0.5923
+Training loss (for one batch) at step 117: 0.6100
+Seen so far: 7552 samples
+Training acc over epoch: 0.5931
+Training loss (for one batch) at step 118: 0.5696
+Seen so far: 7616 samples
+Training acc over epoch: 0.5939
+Training loss (for one batch) at step 119: 0.4798
+Seen so far: 7680 samples
+Training acc over epoch: 0.5953
+Training loss (for one batch) at step 120: 0.4757
+Seen so far: 7744 samples
+Training acc over epoch: 0.5968
+Validation acc: 0.7642
+Time taken: 406.18s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 121: 0.4147
+Seen so far: 7808 samples
+Training acc over epoch: 0.5989
+Training loss (for one batch) at step 122: 0.5119
+Seen so far: 7872 samples
+Training acc over epoch: 0.5997
+Training loss (for one batch) at step 123: 0.5471
+Seen so far: 7936 samples
+Training acc over epoch: 0.6009
+Training loss (for one batch) at step 124: 0.3941
+Seen so far: 8000 samples
+Training acc over epoch: 0.6028
+Training loss (for one batch) at step 125: 0.5560
+Seen so far: 8064 samples
+Training acc over epoch: 0.6033
+Training loss (for one batch) at step 126: 0.4868
+Seen so far: 8128 samples
+Training acc over epoch: 0.6042
+Training loss (for one batch) at step 127: 0.4372
+Seen so far: 8192 samples
+Training acc over epoch: 0.6058
+Training loss (for one batch) at step 128: 0.4272
+Seen so far: 8256 samples
+Training acc over epoch: 0.6077
+Training loss (for one batch) at step 129: 0.5675
+Seen so far: 8320 samples
+Training acc over epoch: 0.6087
+Training loss (for one batch) at step 130: 0.5551
+Seen so far: 8384 samples
+Training acc over epoch: 0.6094
+Training loss (for one batch) at step 131: 0.4723
+Seen so far: 8448 samples
+Training acc over epoch: 0.6108
+Training loss (for one batch) at step 132: 0.4659
+Seen so far: 8512 samples
+Training acc over epoch: 0.6123
+Training loss (for one batch) at step 133: 0.4991
+Seen so far: 8576 samples
+Training acc over epoch: 0.6132
+Training loss (for one batch) at step 134: 0.4670
+Seen so far: 8640 samples
+Training acc over epoch: 0.6144
+Training loss (for one batch) at step 135: 0.4412
+Seen so far: 8704 samples
+Training acc over epoch: 0.6159
+Training loss (for one batch) at step 136: 0.5484
+Seen so far: 8768 samples
+Training acc over epoch: 0.6169
+Training loss (for one batch) at step 137: 0.5489
+Seen so far: 8832 samples
+Training acc over epoch: 0.6174
+Training loss (for one batch) at step 138: 0.3678
+Seen so far: 8896 samples
+Training acc over epoch: 0.6194
+Training loss (for one batch) at step 139: 0.4478
+Seen so far: 8960 samples
+Training acc over epoch: 0.6209
+Training loss (for one batch) at step 140: 0.3798
+Seen so far: 9024 samples
+Training acc over epoch: 0.6223
+Training loss (for one batch) at step 141: 0.3426
+Seen so far: 9088 samples
+Training acc over epoch: 0.6242
+Training loss (for one batch) at step 142: 0.5417
+Seen so far: 9152 samples
+Training acc over epoch: 0.6251
+Training loss (for one batch) at step 143: 0.4409
+Seen so far: 9216 samples
+Training acc over epoch: 0.6264
+Training loss (for one batch) at step 144: 0.3646
+Seen so far: 9280 samples
+Training acc over epoch: 0.6280
+2021-12-28 06:13:46.372410: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:185] None of the MLIR Optimization Passes are enabled (registered 2)
+Training loss (for one batch) at step 145: 0.4668
+Seen so far: 9344 samples
+Training acc over epoch: 0.6290
+Training loss (for one batch) at step 146: 0.5715
+Seen so far: 9408 samples
+Training acc over epoch: 0.6297
+Training loss (for one batch) at step 147: 0.4507
+Seen so far: 9472 samples
+Training acc over epoch: 0.6307
+Training loss (for one batch) at step 148: 0.3867
+Seen so far: 9536 samples
+Training acc over epoch: 0.6320
+Training loss (for one batch) at step 149: 0.3802
+Seen so far: 9600 samples
+Training acc over epoch: 0.6335
+Training loss (for one batch) at step 150: 0.4880
+Seen so far: 9664 samples
+Training acc over epoch: 0.6343
+Validation acc: 0.8030
+Time taken: 526.65s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Testing Accuracy: 80.35%
+Training loss (for one batch) at step 151: 0.4738
+Seen so far: 9728 samples
+Training acc over epoch: 0.6354
+Training loss (for one batch) at step 152: 0.4438
+Seen so far: 9792 samples
+Training acc over epoch: 0.6364
+Training loss (for one batch) at step 153: 0.4135
+Seen so far: 9856 samples
+Training acc over epoch: 0.6376
+Training loss (for one batch) at step 154: 0.3309
+Seen so far: 9920 samples
+Training acc over epoch: 0.6391
+Training loss (for one batch) at step 155: 0.4267
+Seen so far: 9984 samples
+Training acc over epoch: 0.6403
+Training loss (for one batch) at step 156: 0.3315
+Seen so far: 10048 samples
+Training acc over epoch: 0.6414
+Training loss (for one batch) at step 157: 0.3346
+Seen so far: 10112 samples
+Training acc over epoch: 0.6429
+Training loss (for one batch) at step 158: 0.4224
+Seen so far: 10176 samples
+Training acc over epoch: 0.6439
+Training loss (for one batch) at step 159: 0.4987
+Seen so far: 10240 samples
+Training acc over epoch: 0.6447
+Training loss (for one batch) at step 160: 0.3898
+Seen so far: 10304 samples
+Training acc over epoch: 0.6459
+Training loss (for one batch) at step 161: 0.3668
+Seen so far: 10368 samples
+Training acc over epoch: 0.6470
+Training loss (for one batch) at step 162: 0.3587
+Seen so far: 10432 samples
+Training acc over epoch: 0.6480
+Training loss (for one batch) at step 163: 0.3136
+Seen so far: 10496 samples
+Training acc over epoch: 0.6494
+Training loss (for one batch) at step 164: 0.4063
+Seen so far: 10560 samples
+Training acc over epoch: 0.6505
+Training loss (for one batch) at step 165: 0.4171
+Seen so far: 10624 samples
+Training acc over epoch: 0.6514
+Training loss (for one batch) at step 166: 0.3682
+Seen so far: 10688 samples
+Training acc over epoch: 0.6527
+Training loss (for one batch) at step 167: 0.3677
+Seen so far: 10752 samples
+Training acc over epoch: 0.6538
+Training loss (for one batch) at step 168: 0.4163
+Seen so far: 10816 samples
+Training acc over epoch: 0.6550
+Training loss (for one batch) at step 169: 0.4717
+Seen so far: 10880 samples
+Training acc over epoch: 0.6557
+Training loss (for one batch) at step 170: 0.4816
+Seen so far: 10944 samples
+Training acc over epoch: 0.6563
+Training loss (for one batch) at step 171: 0.5149
+Seen so far: 11008 samples
+Training acc over epoch: 0.6570
+Training loss (for one batch) at step 172: 0.4165
+Seen so far: 11072 samples
+Training acc over epoch: 0.6577
+Training loss (for one batch) at step 173: 0.4363
+Seen so far: 11136 samples
+Training acc over epoch: 0.6587
+Training loss (for one batch) at step 174: 0.5542
+Seen so far: 11200 samples
+Training acc over epoch: 0.6592
+Training loss (for one batch) at step 175: 0.5528
+Seen so far: 11264 samples
+Training acc over epoch: 0.6596
+Training loss (for one batch) at step 176: 0.5380
+Seen so far: 11328 samples
+Training acc over epoch: 0.6599
+Training loss (for one batch) at step 177: 0.4548
+Seen so far: 11392 samples
+Training acc over epoch: 0.6606
+Training loss (for one batch) at step 178: 0.3462
+Seen so far: 11456 samples
+Training acc over epoch: 0.6617
+Training loss (for one batch) at step 179: 0.4368
+Seen so far: 11520 samples
+Training acc over epoch: 0.6625
+Training loss (for one batch) at step 180: 0.3575
+Seen so far: 11584 samples
+Training acc over epoch: 0.6635
+Validation acc: 0.8283
+Time taken: 702.39s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 181: 0.4021
+Seen so far: 11648 samples
+Training acc over epoch: 0.6645
+Training loss (for one batch) at step 182: 0.2613
+Seen so far: 11712 samples
+Training acc over epoch: 0.6658
+Training loss (for one batch) at step 183: 0.4262
+Seen so far: 11776 samples
+Training acc over epoch: 0.6665
+Training loss (for one batch) at step 184: 0.4139
+Seen so far: 11840 samples
+Training acc over epoch: 0.6675
+Training loss (for one batch) at step 185: 0.4303
+Seen so far: 11904 samples
+Training acc over epoch: 0.6683
+Training loss (for one batch) at step 186: 0.3520
+Seen so far: 11968 samples
+Training acc over epoch: 0.6694
+Training loss (for one batch) at step 187: 0.3754
+Seen so far: 12032 samples
+Training acc over epoch: 0.6704
+Training loss (for one batch) at step 188: 0.4308
+Seen so far: 12096 samples
+Training acc over epoch: 0.6712
+Training loss (for one batch) at step 189: 0.4657
+Seen so far: 12160 samples
+Training acc over epoch: 0.6718
+Training loss (for one batch) at step 190: 0.5481
+Seen so far: 12224 samples
+Training acc over epoch: 0.6722
+Training loss (for one batch) at step 191: 0.4132
+Seen so far: 12288 samples
+Training acc over epoch: 0.6729
+Training loss (for one batch) at step 192: 0.4034
+Seen so far: 12352 samples
+Training acc over epoch: 0.6738
+Training loss (for one batch) at step 193: 0.3956
+Seen so far: 12416 samples
+Training acc over epoch: 0.6746
+Training loss (for one batch) at step 194: 0.4676
+Seen so far: 12480 samples
+Training acc over epoch: 0.6753
+Training loss (for one batch) at step 195: 0.4101
+Seen so far: 12544 samples
+Training acc over epoch: 0.6763
+Training loss (for one batch) at step 196: 0.3697
+Seen so far: 12608 samples
+Training acc over epoch: 0.6771
+Training loss (for one batch) at step 197: 0.4227
+Seen so far: 12672 samples
+Training acc over epoch: 0.6779
+Training loss (for one batch) at step 198: 0.4443
+Seen so far: 12736 samples
+Training acc over epoch: 0.6785
+Training loss (for one batch) at step 199: 0.3497
+Seen so far: 12800 samples
+Training acc over epoch: 0.6795
+Training loss (for one batch) at step 200: 0.4555
+Seen so far: 12864 samples
+Training acc over epoch: 0.6801
+Training loss (for one batch) at step 201: 0.4084
+Seen so far: 12928 samples
+Training acc over epoch: 0.6808
+Training loss (for one batch) at step 202: 0.2808
+Seen so far: 12992 samples
+Training acc over epoch: 0.6818
+Training loss (for one batch) at step 203: 0.5776
+Seen so far: 13056 samples
+Training acc over epoch: 0.6821
+Training loss (for one batch) at step 204: 0.4700
+Seen so far: 13120 samples
+Training acc over epoch: 0.6827
+Training loss (for one batch) at step 205: 0.4087
+Seen so far: 13184 samples
+Training acc over epoch: 0.6832
+Training loss (for one batch) at step 206: 0.3994
+Seen so far: 13248 samples
+Training acc over epoch: 0.6840
+Training loss (for one batch) at step 207: 0.5575
+Seen so far: 13312 samples
+Training acc over epoch: 0.6843
+Training loss (for one batch) at step 208: 0.5550
+Seen so far: 13376 samples
+Training acc over epoch: 0.6845
+Training loss (for one batch) at step 209: 0.3388
+Seen so far: 13440 samples
+Training acc over epoch: 0.6853
+Training loss (for one batch) at step 210: 0.5084
+Seen so far: 13504 samples
+Training acc over epoch: 0.6857
+Validation acc: 0.8068
+Time taken: 824.36s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 211: 0.2692
+Seen so far: 13568 samples
+Training acc over epoch: 0.6869
+Training loss (for one batch) at step 212: 0.4276
+Seen so far: 13632 samples
+Training acc over epoch: 0.6874
+Training loss (for one batch) at step 213: 0.3947
+Seen so far: 13696 samples
+Training acc over epoch: 0.6882
+Training loss (for one batch) at step 214: 0.4245
+Seen so far: 13760 samples
+Training acc over epoch: 0.6887
+Training loss (for one batch) at step 215: 0.3938
+Seen so far: 13824 samples
+Training acc over epoch: 0.6892
+Training loss (for one batch) at step 216: 0.3518
+Seen so far: 13888 samples
+Training acc over epoch: 0.6900
+Training loss (for one batch) at step 217: 0.3808
+Seen so far: 13952 samples
+Training acc over epoch: 0.6907
+Training loss (for one batch) at step 218: 0.3957
+Seen so far: 14016 samples
+Training acc over epoch: 0.6914
+Training loss (for one batch) at step 219: 0.4176
+Seen so far: 14080 samples
+Training acc over epoch: 0.6918
+Training loss (for one batch) at step 220: 0.3386
+Seen so far: 14144 samples
+Training acc over epoch: 0.6926
+Training loss (for one batch) at step 221: 0.4011
+Seen so far: 14208 samples
+Training acc over epoch: 0.6933
+Training loss (for one batch) at step 222: 0.3782
+Seen so far: 14272 samples
+Training acc over epoch: 0.6939
+Training loss (for one batch) at step 223: 0.3534
+Seen so far: 14336 samples
+Training acc over epoch: 0.6944
+Training loss (for one batch) at step 224: 0.4074
+Seen so far: 14400 samples
+Training acc over epoch: 0.6951
+Training loss (for one batch) at step 225: 0.5302
+Seen so far: 14464 samples
+Training acc over epoch: 0.6955
+Training loss (for one batch) at step 226: 0.4886
+Seen so far: 14528 samples
+Training acc over epoch: 0.6960
+Training loss (for one batch) at step 227: 0.4230
+Seen so far: 14592 samples
+Training acc over epoch: 0.6965
+Training loss (for one batch) at step 228: 0.4963
+Seen so far: 14656 samples
+Training acc over epoch: 0.6968
+Training loss (for one batch) at step 229: 0.3606
+Seen so far: 14720 samples
+Training acc over epoch: 0.6977
+Training loss (for one batch) at step 230: 0.4816
+Seen so far: 14784 samples
+Training acc over epoch: 0.6983
+Training loss (for one batch) at step 231: 0.3259
+Seen so far: 14848 samples
+Training acc over epoch: 0.6991
+Training loss (for one batch) at step 232: 0.3593
+Seen so far: 14912 samples
+Training acc over epoch: 0.6998
+Training loss (for one batch) at step 233: 0.3701
+Seen so far: 14976 samples
+Training acc over epoch: 0.7004
+Training loss (for one batch) at step 234: 0.4768
+Seen so far: 15040 samples
+Training acc over epoch: 0.7006
+Training loss (for one batch) at step 235: 0.4282
+Seen so far: 15104 samples
+Training acc over epoch: 0.7011
+Training loss (for one batch) at step 236: 0.6070
+Seen so far: 15168 samples
+Training acc over epoch: 0.7011
+Training loss (for one batch) at step 237: 0.4953
+Seen so far: 15232 samples
+Training acc over epoch: 0.7015
+Training loss (for one batch) at step 238: 0.4875
+Seen so far: 15296 samples
+Training acc over epoch: 0.7018
+Training loss (for one batch) at step 239: 0.2803
+Seen so far: 15360 samples
+Training acc over epoch: 0.7027
+Training loss (for one batch) at step 240: 0.3072
+Seen so far: 15424 samples
+Training acc over epoch: 0.7034
+Validation acc: 0.8396
+Time taken: 945.71s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 241: 0.4886
+Seen so far: 15488 samples
+Training acc over epoch: 0.7038
+Training loss (for one batch) at step 242: 0.3301
+Seen so far: 15552 samples
+Training acc over epoch: 0.7045
+Training loss (for one batch) at step 243: 0.3777
+Seen so far: 15616 samples
+Training acc over epoch: 0.7050
+Training loss (for one batch) at step 244: 0.3197
+Seen so far: 15680 samples
+Training acc over epoch: 0.7057
+Training loss (for one batch) at step 245: 0.4761
+Seen so far: 15744 samples
+Training acc over epoch: 0.7061
+Training loss (for one batch) at step 246: 0.3427
+Seen so far: 15808 samples
+Training acc over epoch: 0.7068
+Training loss (for one batch) at step 247: 0.3914
+Seen so far: 15872 samples
+Training acc over epoch: 0.7074
+Training loss (for one batch) at step 248: 0.4370
+Seen so far: 15936 samples
+Training acc over epoch: 0.7077
+Training loss (for one batch) at step 249: 0.4256
+Seen so far: 16000 samples
+Training acc over epoch: 0.7081
+Training loss (for one batch) at step 250: 0.3709
+Seen so far: 16064 samples
+Training acc over epoch: 0.7087
+Training loss (for one batch) at step 251: 0.3904
+Seen so far: 16128 samples
+Training acc over epoch: 0.7092
+Training loss (for one batch) at step 252: 0.3812
+Seen so far: 16192 samples
+Training acc over epoch: 0.7096
+Training loss (for one batch) at step 253: 0.3557
+Seen so far: 16256 samples
+Training acc over epoch: 0.7101
+Training loss (for one batch) at step 254: 0.3799
+Seen so far: 16320 samples
+Training acc over epoch: 0.7107
+Training loss (for one batch) at step 255: 0.5031
+Seen so far: 16384 samples
+Training acc over epoch: 0.7109
+Training loss (for one batch) at step 256: 0.4078
+Seen so far: 16448 samples
+Training acc over epoch: 0.7113
+Training loss (for one batch) at step 257: 0.3593
+Seen so far: 16512 samples
+Training acc over epoch: 0.7119
+Training loss (for one batch) at step 258: 0.3596
+Seen so far: 16576 samples
+Training acc over epoch: 0.7123
+Training loss (for one batch) at step 259: 0.4150
+Seen so far: 16640 samples
+Training acc over epoch: 0.7126
+Training loss (for one batch) at step 260: 0.3031
+Seen so far: 16704 samples
+Training acc over epoch: 0.7133
+Training loss (for one batch) at step 261: 0.4239
+Seen so far: 16768 samples
+Training acc over epoch: 0.7136
+Training loss (for one batch) at step 262: 0.3343
+Seen so far: 16832 samples
+Training acc over epoch: 0.7142
+Training loss (for one batch) at step 263: 0.3836
+Seen so far: 16896 samples
+Training acc over epoch: 0.7147
+Training loss (for one batch) at step 264: 0.4731
+Seen so far: 16960 samples
+Training acc over epoch: 0.7150
+Training loss (for one batch) at step 265: 0.3857
+Seen so far: 17024 samples
+Training acc over epoch: 0.7153
+Training loss (for one batch) at step 266: 0.4071
+Seen so far: 17088 samples
+Training acc over epoch: 0.7158
+Training loss (for one batch) at step 267: 0.3967
+Seen so far: 17152 samples
+Training acc over epoch: 0.7161
+Training loss (for one batch) at step 268: 0.2150
+Seen so far: 17216 samples
+Training acc over epoch: 0.7169
+Training loss (for one batch) at step 269: 0.3740
+Seen so far: 17280 samples
+Training acc over epoch: 0.7173
+Training loss (for one batch) at step 270: 0.2541
+Seen so far: 17344 samples
+Training acc over epoch: 0.7182
+Validation acc: 0.8509
+Time taken: 1066.32s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 271: 0.2051
+Seen so far: 17408 samples
+Training acc over epoch: 0.7189
+Training loss (for one batch) at step 272: 0.4333
+Seen so far: 17472 samples
+Training acc over epoch: 0.7192
+Training loss (for one batch) at step 273: 0.3217
+Seen so far: 17536 samples
+Training acc over epoch: 0.7199
+Training loss (for one batch) at step 274: 0.3009
+Seen so far: 17600 samples
+Training acc over epoch: 0.7205
+Training loss (for one batch) at step 275: 0.4628
+Seen so far: 17664 samples
+Training acc over epoch: 0.7208
+Training loss (for one batch) at step 276: 0.4019
+Seen so far: 17728 samples
+Training acc over epoch: 0.7213
+Training loss (for one batch) at step 277: 0.3641
+Seen so far: 17792 samples
+Training acc over epoch: 0.7218
+Training loss (for one batch) at step 278: 0.2681
+Seen so far: 17856 samples
+Training acc over epoch: 0.7224
+Training loss (for one batch) at step 279: 0.3494
+Seen so far: 17920 samples
+Training acc over epoch: 0.7227
+Training loss (for one batch) at step 280: 0.2793
+Seen so far: 17984 samples
+Training acc over epoch: 0.7234
+Training loss (for one batch) at step 281: 0.4254
+Seen so far: 18048 samples
+Training acc over epoch: 0.7236
+Training loss (for one batch) at step 282: 0.4376
+Seen so far: 18112 samples
+Training acc over epoch: 0.7239
+Training loss (for one batch) at step 283: 0.3250
+Seen so far: 18176 samples
+Training acc over epoch: 0.7244
+Training loss (for one batch) at step 284: 0.4290
+Seen so far: 18240 samples
+Training acc over epoch: 0.7247
+Training loss (for one batch) at step 285: 0.3830
+Seen so far: 18304 samples
+Training acc over epoch: 0.7251
+Training loss (for one batch) at step 286: 0.3447
+Seen so far: 18368 samples
+Training acc over epoch: 0.7254
+Training loss (for one batch) at step 287: 0.3448
+Seen so far: 18432 samples
+Training acc over epoch: 0.7259
+Training loss (for one batch) at step 288: 0.3842
+Seen so far: 18496 samples
+Training acc over epoch: 0.7264
+Training loss (for one batch) at step 289: 0.3430
+Seen so far: 18560 samples
+Training acc over epoch: 0.7268
+Training loss (for one batch) at step 290: 0.4333
+Seen so far: 18624 samples
+Training acc over epoch: 0.7271
+Training loss (for one batch) at step 291: 0.3414
+Seen so far: 18688 samples
+Training acc over epoch: 0.7275
+Training loss (for one batch) at step 292: 0.4350
+Seen so far: 18752 samples
+Training acc over epoch: 0.7278
+Training loss (for one batch) at step 293: 0.2717
+Seen so far: 18816 samples
+Training acc over epoch: 0.7285
+Training loss (for one batch) at step 294: 0.3592
+Seen so far: 18880 samples
+Training acc over epoch: 0.7289
+Training loss (for one batch) at step 295: 0.4516
+Seen so far: 18944 samples
+Training acc over epoch: 0.7293
+Training loss (for one batch) at step 296: 0.2792
+Seen so far: 19008 samples
+Training acc over epoch: 0.7299
+Training loss (for one batch) at step 297: 0.3591
+Seen so far: 19072 samples
+Training acc over epoch: 0.7305
+Training loss (for one batch) at step 298: 0.3803
+Seen so far: 19136 samples
+Training acc over epoch: 0.7309
+Training loss (for one batch) at step 299: 0.5587
+Seen so far: 19200 samples
+Training acc over epoch: 0.7309
+Training loss (for one batch) at step 300: 0.4818
+Seen so far: 19264 samples
+Training acc over epoch: 0.7311
+Validation acc: 0.8602
+Time taken: 1187.16s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 301: 0.3129
+Seen so far: 19328 samples
+Training acc over epoch: 0.7315
+Training loss (for one batch) at step 302: 0.3449
+Seen so far: 19392 samples
+Training acc over epoch: 0.7320
+Training loss (for one batch) at step 303: 0.3490
+Seen so far: 19456 samples
+Training acc over epoch: 0.7325
+Training loss (for one batch) at step 304: 0.3156
+Seen so far: 19520 samples
+Training acc over epoch: 0.7330
+Training loss (for one batch) at step 305: 0.5327
+Seen so far: 19584 samples
+Training acc over epoch: 0.7330
+Training loss (for one batch) at step 306: 0.3006
+Seen so far: 19648 samples
+Training acc over epoch: 0.7336
+Training loss (for one batch) at step 307: 0.3899
+Seen so far: 19712 samples
+Training acc over epoch: 0.7340
+Training loss (for one batch) at step 308: 0.3596
+Seen so far: 19776 samples
+Training acc over epoch: 0.7343
+Training loss (for one batch) at step 309: 0.3163
+Seen so far: 19840 samples
+Training acc over epoch: 0.7349
+Training loss (for one batch) at step 310: 0.4413
+Seen so far: 19904 samples
+Training acc over epoch: 0.7350
+Training loss (for one batch) at step 311: 0.5323
+Seen so far: 19968 samples
+Training acc over epoch: 0.7351
+Training loss (for one batch) at step 312: 0.2915
+Seen so far: 20032 samples
+Training acc over epoch: 0.7357
+Testing Accuracy: 85.47%
+
+Start of epoch 1
+Training loss (for one batch) at step 0: 0.3486
+Seen so far: 64 samples
+Training acc over epoch: 0.8281
+Training loss (for one batch) at step 1: 0.3549
+Seen so far: 128 samples
+Training acc over epoch: 0.8359
+Training loss (for one batch) at step 2: 0.3543
+Seen so far: 192 samples
+Training acc over epoch: 0.8490
+Training loss (for one batch) at step 3: 0.3769
+Seen so far: 256 samples
+Training acc over epoch: 0.8320
+Training loss (for one batch) at step 4: 0.3296
+Seen so far: 320 samples
+Training acc over epoch: 0.8313
+Training loss (for one batch) at step 5: 0.2511
+Seen so far: 384 samples
+Training acc over epoch: 0.8464
+Training loss (for one batch) at step 6: 0.3287
+Seen so far: 448 samples
+Training acc over epoch: 0.8438
+Training loss (for one batch) at step 7: 0.2695
+Seen so far: 512 samples
+Training acc over epoch: 0.8555
+Training loss (for one batch) at step 8: 0.2483
+Seen so far: 576 samples
+Training acc over epoch: 0.8628
+Training loss (for one batch) at step 9: 0.2849
+Seen so far: 640 samples
+Training acc over epoch: 0.8672
+Training loss (for one batch) at step 10: 0.3256
+Seen so far: 704 samples
+Training acc over epoch: 0.8679
+Training loss (for one batch) at step 11: 0.3010
+Seen so far: 768 samples
+Training acc over epoch: 0.8698
+Training loss (for one batch) at step 12: 0.3097
+Seen so far: 832 samples
+Training acc over epoch: 0.8666
+Training loss (for one batch) at step 13: 0.3134
+Seen so far: 896 samples
+Training acc over epoch: 0.8638
+Training loss (for one batch) at step 14: 0.4830
+Seen so far: 960 samples
+Training acc over epoch: 0.8615
+Training loss (for one batch) at step 15: 0.2363
+Seen so far: 1024 samples
+Training acc over epoch: 0.8623
+Training loss (for one batch) at step 16: 0.3546
+Seen so far: 1088 samples
+Training acc over epoch: 0.8631
+Training loss (for one batch) at step 17: 0.3604
+Seen so far: 1152 samples
+Training acc over epoch: 0.8646
+Training loss (for one batch) at step 18: 0.3753
+Seen so far: 1216 samples
+Training acc over epoch: 0.8643
+Training loss (for one batch) at step 19: 0.4607
+Seen so far: 1280 samples
+Training acc over epoch: 0.8609
+Training loss (for one batch) at step 20: 0.3956
+Seen so far: 1344 samples
+Training acc over epoch: 0.8586
+Training loss (for one batch) at step 21: 0.4158
+Seen so far: 1408 samples
+Training acc over epoch: 0.8565
+Training loss (for one batch) at step 22: 0.3893
+Seen so far: 1472 samples
+Training acc over epoch: 0.8587
+Training loss (for one batch) at step 23: 0.4087
+Seen so far: 1536 samples
+Training acc over epoch: 0.8574
+Training loss (for one batch) at step 24: 0.2862
+Seen so far: 1600 samples
+Training acc over epoch: 0.8569
+Training loss (for one batch) at step 25: 0.4893
+Seen so far: 1664 samples
+Training acc over epoch: 0.8540
+Training loss (for one batch) at step 26: 0.3169
+Seen so far: 1728 samples
+Training acc over epoch: 0.8553
+Training loss (for one batch) at step 27: 0.3685
+Seen so far: 1792 samples
+Training acc over epoch: 0.8549
+Training loss (for one batch) at step 28: 0.3104
+Seen so far: 1856 samples
+Training acc over epoch: 0.8556
+Training loss (for one batch) at step 29: 0.3481
+Seen so far: 1920 samples
+Training acc over epoch: 0.8573
+Training loss (for one batch) at step 30: 0.2441
+Seen so far: 1984 samples
+Training acc over epoch: 0.8599
+Validation acc: 0.8408
+Time taken: 41.00s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 31: 0.4185
+Seen so far: 2048 samples
+Training acc over epoch: 0.8599
+Training loss (for one batch) at step 32: 0.3775
+Seen so far: 2112 samples
+Training acc over epoch: 0.8584
+Training loss (for one batch) at step 33: 0.3094
+Seen so far: 2176 samples
+Training acc over epoch: 0.8585
+Training loss (for one batch) at step 34: 0.2944
+Seen so far: 2240 samples
+Training acc over epoch: 0.8598
+Training loss (for one batch) at step 35: 0.4373
+Seen so far: 2304 samples
+Training acc over epoch: 0.8576
+Training loss (for one batch) at step 36: 0.2758
+Seen so far: 2368 samples
+Training acc over epoch: 0.8581
+Training loss (for one batch) at step 37: 0.2792
+Seen so far: 2432 samples
+Training acc over epoch: 0.8590
+Training loss (for one batch) at step 38: 0.2817
+Seen so far: 2496 samples
+Training acc over epoch: 0.8590
+Training loss (for one batch) at step 39: 0.3039
+Seen so far: 2560 samples
+Training acc over epoch: 0.8590
+Training loss (for one batch) at step 40: 0.5809
+Seen so far: 2624 samples
+Training acc over epoch: 0.8571
+Training loss (for one batch) at step 41: 0.3280
+Seen so far: 2688 samples
+Training acc over epoch: 0.8571
+Training loss (for one batch) at step 42: 0.5317
+Seen so far: 2752 samples
+Training acc over epoch: 0.8543
+Training loss (for one batch) at step 43: 0.4897
+Seen so far: 2816 samples
+Training acc over epoch: 0.8519
+Training loss (for one batch) at step 44: 0.4293
+Seen so far: 2880 samples
+Training acc over epoch: 0.8510
+Training loss (for one batch) at step 45: 0.4539
+Seen so far: 2944 samples
+Training acc over epoch: 0.8488
+Training loss (for one batch) at step 46: 0.5085
+Seen so far: 3008 samples
+Training acc over epoch: 0.8461
+Training loss (for one batch) at step 47: 0.4558
+Seen so far: 3072 samples
+Training acc over epoch: 0.8454
+Training loss (for one batch) at step 48: 0.5339
+Seen so far: 3136 samples
+Training acc over epoch: 0.8428
+Training loss (for one batch) at step 49: 0.4623
+Seen so far: 3200 samples
+Training acc over epoch: 0.8413
+Training loss (for one batch) at step 50: 0.4007
+Seen so far: 3264 samples
+Training acc over epoch: 0.8410
+Training loss (for one batch) at step 51: 0.4516
+Seen so far: 3328 samples
+Training acc over epoch: 0.8395
+Training loss (for one batch) at step 52: 0.4790
+Seen so far: 3392 samples
+Training acc over epoch: 0.8379
+Training loss (for one batch) at step 53: 0.4395
+Seen so far: 3456 samples
+Training acc over epoch: 0.8374
+Training loss (for one batch) at step 54: 0.4469
+Seen so far: 3520 samples
+Training acc over epoch: 0.8366
+Training loss (for one batch) at step 55: 0.4133
+Seen so far: 3584 samples
+Training acc over epoch: 0.8357
+Training loss (for one batch) at step 56: 0.4104
+Seen so far: 3648 samples
+Training acc over epoch: 0.8363
+Training loss (for one batch) at step 57: 0.3901
+Seen so far: 3712 samples
+Training acc over epoch: 0.8370
+Training loss (for one batch) at step 58: 0.3851
+Seen so far: 3776 samples
+Training acc over epoch: 0.8371
+Training loss (for one batch) at step 59: 0.3931
+Seen so far: 3840 samples
+Training acc over epoch: 0.8370
+Training loss (for one batch) at step 60: 0.3983
+Seen so far: 3904 samples
+Training acc over epoch: 0.8368
+Validation acc: 0.8350
+Time taken: 162.50s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 61: 0.2896
+Seen so far: 3968 samples
+Training acc over epoch: 0.8380
+Training loss (for one batch) at step 62: 0.3845
+Seen so far: 4032 samples
+Training acc over epoch: 0.8380
+Training loss (for one batch) at step 63: 0.3062
+Seen so far: 4096 samples
+Training acc over epoch: 0.8391
+Training loss (for one batch) at step 64: 0.2236
+Seen so far: 4160 samples
+Training acc over epoch: 0.8404
+Training loss (for one batch) at step 65: 0.3276
+Seen so far: 4224 samples
+Training acc over epoch: 0.8407
+Training loss (for one batch) at step 66: 0.2664
+Seen so far: 4288 samples
+Training acc over epoch: 0.8414
+Training loss (for one batch) at step 67: 0.2993
+Seen so far: 4352 samples
+Training acc over epoch: 0.8424
+Training loss (for one batch) at step 68: 0.4769
+Seen so far: 4416 samples
+Training acc over epoch: 0.8413
+Training loss (for one batch) at step 69: 0.4167
+Seen so far: 4480 samples
+Training acc over epoch: 0.8411
+Training loss (for one batch) at step 70: 0.2508
+Seen so far: 4544 samples
+Training acc over epoch: 0.8422
+Training loss (for one batch) at step 71: 0.2817
+Seen so far: 4608 samples
+Training acc over epoch: 0.8429
+Training loss (for one batch) at step 72: 0.5890
+Seen so far: 4672 samples
+Training acc over epoch: 0.8427
+Training loss (for one batch) at step 73: 0.3168
+Seen so far: 4736 samples
+Training acc over epoch: 0.8429
+Training loss (for one batch) at step 74: 0.3978
+Seen so far: 4800 samples
+Training acc over epoch: 0.8425
+Training loss (for one batch) at step 75: 0.4403
+Seen so far: 4864 samples
+Training acc over epoch: 0.8415
+Training loss (for one batch) at step 76: 0.4012
+Seen so far: 4928 samples
+Training acc over epoch: 0.8417
+Training loss (for one batch) at step 77: 0.4526
+Seen so far: 4992 samples
+Training acc over epoch: 0.8415
+Training loss (for one batch) at step 78: 0.4011
+Seen so far: 5056 samples
+Training acc over epoch: 0.8418
+Training loss (for one batch) at step 79: 0.5030
+Seen so far: 5120 samples
+Training acc over epoch: 0.8404
+Training loss (for one batch) at step 80: 0.4685
+Seen so far: 5184 samples
+Training acc over epoch: 0.8393
+Training loss (for one batch) at step 81: 0.5095
+Seen so far: 5248 samples
+Training acc over epoch: 0.8384
+Training loss (for one batch) at step 82: 0.5161
+Seen so far: 5312 samples
+Training acc over epoch: 0.8377
+Training loss (for one batch) at step 83: 0.4493
+Seen so far: 5376 samples
+Training acc over epoch: 0.8371
+Training loss (for one batch) at step 84: 0.4027
+Seen so far: 5440 samples
+Training acc over epoch: 0.8371
+Training loss (for one batch) at step 85: 0.3273
+Seen so far: 5504 samples
+Training acc over epoch: 0.8376
+Training loss (for one batch) at step 86: 0.4676
+Seen so far: 5568 samples
+Training acc over epoch: 0.8371
+Training loss (for one batch) at step 87: 0.4600
+Seen so far: 5632 samples
+Training acc over epoch: 0.8363
+Training loss (for one batch) at step 88: 0.4108
+Seen so far: 5696 samples
+Training acc over epoch: 0.8367
+Training loss (for one batch) at step 89: 0.3479
+Seen so far: 5760 samples
+Training acc over epoch: 0.8373
+Training loss (for one batch) at step 90: 0.4623
+Seen so far: 5824 samples
+Training acc over epoch: 0.8360
+Validation acc: 0.8054
+Time taken: 284.05s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 91: 0.4075
+Seen so far: 5888 samples
+Training acc over epoch: 0.8359
+Training loss (for one batch) at step 92: 0.3955
+Seen so far: 5952 samples
+Training acc over epoch: 0.8360
+Training loss (for one batch) at step 93: 0.4496
+Seen so far: 6016 samples
+Training acc over epoch: 0.8354
+Training loss (for one batch) at step 94: 0.4127
+Seen so far: 6080 samples
+Training acc over epoch: 0.8357
+Training loss (for one batch) at step 95: 0.3356
+Seen so far: 6144 samples
+Training acc over epoch: 0.8361
+Training loss (for one batch) at step 96: 0.3753
+Seen so far: 6208 samples
+Training acc over epoch: 0.8362
+Training loss (for one batch) at step 97: 0.3382
+Seen so far: 6272 samples
+Training acc over epoch: 0.8359
+Training loss (for one batch) at step 98: 0.3844
+Seen so far: 6336 samples
+Training acc over epoch: 0.8357
+Training loss (for one batch) at step 99: 0.4608
+Seen so far: 6400 samples
+Training acc over epoch: 0.8348
+Training loss (for one batch) at step 100: 0.3737
+Seen so far: 6464 samples
+Training acc over epoch: 0.8349
+Training loss (for one batch) at step 101: 0.4952
+Seen so far: 6528 samples
+Training acc over epoch: 0.8343
+Training loss (for one batch) at step 102: 0.3145
+Seen so far: 6592 samples
+Training acc over epoch: 0.8348
+Training loss (for one batch) at step 103: 0.2458
+Seen so far: 6656 samples
+Training acc over epoch: 0.8355
+Training loss (for one batch) at step 104: 0.2712
+Seen so far: 6720 samples
+Training acc over epoch: 0.8362
+Training loss (for one batch) at step 105: 0.2003
+Seen so far: 6784 samples
+Training acc over epoch: 0.8368
+Training loss (for one batch) at step 106: 0.2981
+Seen so far: 6848 samples
+Training acc over epoch: 0.8375
+Training loss (for one batch) at step 107: 0.3204
+Seen so far: 6912 samples
+Training acc over epoch: 0.8375
+Training loss (for one batch) at step 108: 0.4562
+Seen so far: 6976 samples
+Training acc over epoch: 0.8369
+Training loss (for one batch) at step 109: 0.5188
+Seen so far: 7040 samples
+Training acc over epoch: 0.8361
+Training loss (for one batch) at step 110: 0.5092
+Seen so far: 7104 samples
+Training acc over epoch: 0.8354
+Training loss (for one batch) at step 111: 0.3223
+Seen so far: 7168 samples
+Training acc over epoch: 0.8358
+Training loss (for one batch) at step 112: 0.3536
+Seen so far: 7232 samples
+Training acc over epoch: 0.8357
+Training loss (for one batch) at step 113: 0.3652
+Seen so far: 7296 samples
+Training acc over epoch: 0.8359
+Training loss (for one batch) at step 114: 0.3870
+Seen so far: 7360 samples
+Training acc over epoch: 0.8360
+Training loss (for one batch) at step 115: 0.2765
+Seen so far: 7424 samples
+Training acc over epoch: 0.8365
+Training loss (for one batch) at step 116: 0.4117
+Seen so far: 7488 samples
+Training acc over epoch: 0.8361
+Training loss (for one batch) at step 117: 0.3071
+Seen so far: 7552 samples
+Training acc over epoch: 0.8363
+Training loss (for one batch) at step 118: 0.3335
+Seen so far: 7616 samples
+Training acc over epoch: 0.8368
+Training loss (for one batch) at step 119: 0.1999
+Seen so far: 7680 samples
+Training acc over epoch: 0.8380
+Training loss (for one batch) at step 120: 0.3260
+Seen so far: 7744 samples
+Training acc over epoch: 0.8385
+Validation acc: 0.8323
+Time taken: 405.28s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 121: 0.2682
+Seen so far: 7808 samples
+Training acc over epoch: 0.8390
+Training loss (for one batch) at step 122: 0.3306
+Seen so far: 7872 samples
+Training acc over epoch: 0.8394
+Training loss (for one batch) at step 123: 0.3505
+Seen so far: 7936 samples
+Training acc over epoch: 0.8392
+Training loss (for one batch) at step 124: 0.3159
+Seen so far: 8000 samples
+Training acc over epoch: 0.8397
+Training loss (for one batch) at step 125: 0.3616
+Seen so far: 8064 samples
+Training acc over epoch: 0.8399
+Training loss (for one batch) at step 126: 0.3149
+Seen so far: 8128 samples
+Training acc over epoch: 0.8403
+Training loss (for one batch) at step 127: 0.2700
+Seen so far: 8192 samples
+Training acc over epoch: 0.8408
+Training loss (for one batch) at step 128: 0.2657
+Seen so far: 8256 samples
+Training acc over epoch: 0.8412
+Training loss (for one batch) at step 129: 0.3068
+Seen so far: 8320 samples
+Training acc over epoch: 0.8416
+Training loss (for one batch) at step 130: 0.2531
+Seen so far: 8384 samples
+Training acc over epoch: 0.8423
+Training loss (for one batch) at step 131: 0.2323
+Seen so far: 8448 samples
+Training acc over epoch: 0.8428
+Training loss (for one batch) at step 132: 0.4816
+Seen so far: 8512 samples
+Training acc over epoch: 0.8426
+Training loss (for one batch) at step 133: 0.3227
+Seen so far: 8576 samples
+Training acc over epoch: 0.8427
+Training loss (for one batch) at step 134: 0.2803
+Seen so far: 8640 samples
+Training acc over epoch: 0.8432
+Training loss (for one batch) at step 135: 0.3078
+Seen so far: 8704 samples
+Training acc over epoch: 0.8433
+Training loss (for one batch) at step 136: 0.3476
+Seen so far: 8768 samples
+Training acc over epoch: 0.8433
+Training loss (for one batch) at step 137: 0.3487
+Seen so far: 8832 samples
+Training acc over epoch: 0.8435
+Training loss (for one batch) at step 138: 0.2820
+Seen so far: 8896 samples
+Training acc over epoch: 0.8440
+Training loss (for one batch) at step 139: 0.2669
+Seen so far: 8960 samples
+Training acc over epoch: 0.8445
+Training loss (for one batch) at step 140: 0.2955
+Seen so far: 9024 samples
+Training acc over epoch: 0.8447
+Training loss (for one batch) at step 141: 0.2467
+Seen so far: 9088 samples
+Training acc over epoch: 0.8452
+Training loss (for one batch) at step 142: 0.2498
+Seen so far: 9152 samples
+Training acc over epoch: 0.8460
+Training loss (for one batch) at step 143: 0.3167
+Seen so far: 9216 samples
+Training acc over epoch: 0.8461
+Training loss (for one batch) at step 144: 0.2642
+Seen so far: 9280 samples
+Training acc over epoch: 0.8467
+Training loss (for one batch) at step 145: 0.2933
+Seen so far: 9344 samples
+Training acc over epoch: 0.8471
+Training loss (for one batch) at step 146: 0.2973
+Seen so far: 9408 samples
+Training acc over epoch: 0.8476
+Training loss (for one batch) at step 147: 0.3145
+Seen so far: 9472 samples
+Training acc over epoch: 0.8479
+Training loss (for one batch) at step 148: 0.2953
+Seen so far: 9536 samples
+Training acc over epoch: 0.8483
+Training loss (for one batch) at step 149: 0.3079
+Seen so far: 9600 samples
+Training acc over epoch: 0.8485
+Training loss (for one batch) at step 150: 0.2627
+Seen so far: 9664 samples
+Training acc over epoch: 0.8487
+Validation acc: 0.8639
+Time taken: 527.51s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Testing Accuracy: 86.47%
+Training loss (for one batch) at step 151: 0.2947
+Seen so far: 9728 samples
+Training acc over epoch: 0.8491
+Training loss (for one batch) at step 152: 0.2356
+Seen so far: 9792 samples
+Training acc over epoch: 0.8497
+Training loss (for one batch) at step 153: 0.3282
+Seen so far: 9856 samples
+Training acc over epoch: 0.8496
+Training loss (for one batch) at step 154: 0.2773
+Seen so far: 9920 samples
+Training acc over epoch: 0.8500
+Training loss (for one batch) at step 155: 0.2206
+Seen so far: 9984 samples
+Training acc over epoch: 0.8505
+Training loss (for one batch) at step 156: 0.2895
+Seen so far: 10048 samples
+Training acc over epoch: 0.8507
+Training loss (for one batch) at step 157: 0.3169
+Seen so far: 10112 samples
+Training acc over epoch: 0.8513
+Training loss (for one batch) at step 158: 0.3905
+Seen so far: 10176 samples
+Training acc over epoch: 0.8513
+Training loss (for one batch) at step 159: 0.3746
+Seen so far: 10240 samples
+Training acc over epoch: 0.8512
+Training loss (for one batch) at step 160: 0.4153
+Seen so far: 10304 samples
+Training acc over epoch: 0.8512
+Training loss (for one batch) at step 161: 0.3139
+Seen so far: 10368 samples
+Training acc over epoch: 0.8515
+Training loss (for one batch) at step 162: 0.3319
+Seen so far: 10432 samples
+Training acc over epoch: 0.8515
+Training loss (for one batch) at step 163: 0.2648
+Seen so far: 10496 samples
+Training acc over epoch: 0.8517
+Training loss (for one batch) at step 164: 0.2777
+Seen so far: 10560 samples
+Training acc over epoch: 0.8520
+Training loss (for one batch) at step 165: 0.2382
+Seen so far: 10624 samples
+Training acc over epoch: 0.8524
+Training loss (for one batch) at step 166: 0.3764
+Seen so far: 10688 samples
+Training acc over epoch: 0.8525
+Training loss (for one batch) at step 167: 0.2767
+Seen so far: 10752 samples
+Training acc over epoch: 0.8526
+Training loss (for one batch) at step 168: 0.3587
+Seen so far: 10816 samples
+Training acc over epoch: 0.8524
+Training loss (for one batch) at step 169: 0.2923
+Seen so far: 10880 samples
+Training acc over epoch: 0.8527
+Training loss (for one batch) at step 170: 0.4238
+Seen so far: 10944 samples
+Training acc over epoch: 0.8527
+Training loss (for one batch) at step 171: 0.3516
+Seen so far: 11008 samples
+Training acc over epoch: 0.8526
+Training loss (for one batch) at step 172: 0.2343
+Seen so far: 11072 samples
+Training acc over epoch: 0.8531
+Training loss (for one batch) at step 173: 0.2608
+Seen so far: 11136 samples
+Training acc over epoch: 0.8535
+Training loss (for one batch) at step 174: 0.3000
+Seen so far: 11200 samples
+Training acc over epoch: 0.8538
+Training loss (for one batch) at step 175: 0.2973
+Seen so far: 11264 samples
+Training acc over epoch: 0.8539
+Training loss (for one batch) at step 176: 0.2564
+Seen so far: 11328 samples
+Training acc over epoch: 0.8543
+Training loss (for one batch) at step 177: 0.3069
+Seen so far: 11392 samples
+Training acc over epoch: 0.8544
+Training loss (for one batch) at step 178: 0.3303
+Seen so far: 11456 samples
+Training acc over epoch: 0.8545
+Training loss (for one batch) at step 179: 0.2414
+Seen so far: 11520 samples
+Training acc over epoch: 0.8549
+Training loss (for one batch) at step 180: 0.2964
+Seen so far: 11584 samples
+Training acc over epoch: 0.8551
+Validation acc: 0.8600
+Time taken: 701.46s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 181: 0.3340
+Seen so far: 11648 samples
+Training acc over epoch: 0.8551
+Training loss (for one batch) at step 182: 0.3187
+Seen so far: 11712 samples
+Training acc over epoch: 0.8552
+Training loss (for one batch) at step 183: 0.3172
+Seen so far: 11776 samples
+Training acc over epoch: 0.8553
+Training loss (for one batch) at step 184: 0.2463
+Seen so far: 11840 samples
+Training acc over epoch: 0.8557
+Training loss (for one batch) at step 185: 0.3974
+Seen so far: 11904 samples
+Training acc over epoch: 0.8557
+Training loss (for one batch) at step 186: 0.3353
+Seen so far: 11968 samples
+Training acc over epoch: 0.8558
+Training loss (for one batch) at step 187: 0.2878
+Seen so far: 12032 samples
+Training acc over epoch: 0.8561
+Training loss (for one batch) at step 188: 0.3823
+Seen so far: 12096 samples
+Training acc over epoch: 0.8560
+Training loss (for one batch) at step 189: 0.3403
+Seen so far: 12160 samples
+Training acc over epoch: 0.8560
+Training loss (for one batch) at step 190: 0.3322
+Seen so far: 12224 samples
+Training acc over epoch: 0.8559
+Training loss (for one batch) at step 191: 0.2793
+Seen so far: 12288 samples
+Training acc over epoch: 0.8562
+Training loss (for one batch) at step 192: 0.2333
+Seen so far: 12352 samples
+Training acc over epoch: 0.8567
+Training loss (for one batch) at step 193: 0.3135
+Seen so far: 12416 samples
+Training acc over epoch: 0.8568
+Training loss (for one batch) at step 194: 0.3649
+Seen so far: 12480 samples
+Training acc over epoch: 0.8568
+Training loss (for one batch) at step 195: 0.2406
+Seen so far: 12544 samples
+Training acc over epoch: 0.8572
+Training loss (for one batch) at step 196: 0.2674
+Seen so far: 12608 samples
+Training acc over epoch: 0.8574
+Training loss (for one batch) at step 197: 0.3918
+Seen so far: 12672 samples
+Training acc over epoch: 0.8572
+Training loss (for one batch) at step 198: 0.3274
+Seen so far: 12736 samples
+Training acc over epoch: 0.8573
+Training loss (for one batch) at step 199: 0.3045
+Seen so far: 12800 samples
+Training acc over epoch: 0.8574
+Training loss (for one batch) at step 200: 0.2419
+Seen so far: 12864 samples
+Training acc over epoch: 0.8578
+Training loss (for one batch) at step 201: 0.2735
+Seen so far: 12928 samples
+Training acc over epoch: 0.8582
+Training loss (for one batch) at step 202: 0.2274
+Seen so far: 12992 samples
+Training acc over epoch: 0.8585
+Training loss (for one batch) at step 203: 0.2799
+Seen so far: 13056 samples
+Training acc over epoch: 0.8588
+Training loss (for one batch) at step 204: 0.2964
+Seen so far: 13120 samples
+Training acc over epoch: 0.8589
+Training loss (for one batch) at step 205: 0.3889
+Seen so far: 13184 samples
+Training acc over epoch: 0.8589
+Training loss (for one batch) at step 206: 0.3896
+Seen so far: 13248 samples
+Training acc over epoch: 0.8588
+Training loss (for one batch) at step 207: 0.2430
+Seen so far: 13312 samples
+Training acc over epoch: 0.8591
+Training loss (for one batch) at step 208: 0.2428
+Seen so far: 13376 samples
+Training acc over epoch: 0.8594
+Training loss (for one batch) at step 209: 0.2666
+Seen so far: 13440 samples
+Training acc over epoch: 0.8597
+Training loss (for one batch) at step 210: 0.2833
+Seen so far: 13504 samples
+Training acc over epoch: 0.8600
+Validation acc: 0.8252
+Time taken: 823.29s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 211: 0.4336
+Seen so far: 13568 samples
+Training acc over epoch: 0.8597
+Training loss (for one batch) at step 212: 0.3221
+Seen so far: 13632 samples
+Training acc over epoch: 0.8599
+Training loss (for one batch) at step 213: 0.3967
+Seen so far: 13696 samples
+Training acc over epoch: 0.8598
+Training loss (for one batch) at step 214: 0.4046
+Seen so far: 13760 samples
+Training acc over epoch: 0.8597
+Training loss (for one batch) at step 215: 0.4575
+Seen so far: 13824 samples
+Training acc over epoch: 0.8592
+Training loss (for one batch) at step 216: 0.3276
+Seen so far: 13888 samples
+Training acc over epoch: 0.8594
+Training loss (for one batch) at step 217: 0.2900
+Seen so far: 13952 samples
+Training acc over epoch: 0.8595
+Training loss (for one batch) at step 218: 0.3082
+Seen so far: 14016 samples
+Training acc over epoch: 0.8594
+Training loss (for one batch) at step 219: 0.3685
+Seen so far: 14080 samples
+Training acc over epoch: 0.8594
+Training loss (for one batch) at step 220: 0.3074
+Seen so far: 14144 samples
+Training acc over epoch: 0.8597
+Training loss (for one batch) at step 221: 0.3318
+Seen so far: 14208 samples
+Training acc over epoch: 0.8599
+Training loss (for one batch) at step 222: 0.3161
+Seen so far: 14272 samples
+Training acc over epoch: 0.8600
+Training loss (for one batch) at step 223: 0.2197
+Seen so far: 14336 samples
+Training acc over epoch: 0.8603
+Training loss (for one batch) at step 224: 0.4129
+Seen so far: 14400 samples
+Training acc over epoch: 0.8601
+Training loss (for one batch) at step 225: 0.3698
+Seen so far: 14464 samples
+Training acc over epoch: 0.8599
+Training loss (for one batch) at step 226: 0.2710
+Seen so far: 14528 samples
+Training acc over epoch: 0.8600
+Training loss (for one batch) at step 227: 0.2766
+Seen so far: 14592 samples
+Training acc over epoch: 0.8603
+Training loss (for one batch) at step 228: 0.2171
+Seen so far: 14656 samples
+Training acc over epoch: 0.8607
+Training loss (for one batch) at step 229: 0.4231
+Seen so far: 14720 samples
+Training acc over epoch: 0.8607
+Training loss (for one batch) at step 230: 0.3749
+Seen so far: 14784 samples
+Training acc over epoch: 0.8607
+Training loss (for one batch) at step 231: 0.3583
+Seen so far: 14848 samples
+Training acc over epoch: 0.8609
+Training loss (for one batch) at step 232: 0.3234
+Seen so far: 14912 samples
+Training acc over epoch: 0.8609
+Training loss (for one batch) at step 233: 0.3065
+Seen so far: 14976 samples
+Training acc over epoch: 0.8609
+Training loss (for one batch) at step 234: 0.2306
+Seen so far: 15040 samples
+Training acc over epoch: 0.8611
+Training loss (for one batch) at step 235: 0.4108
+Seen so far: 15104 samples
+Training acc over epoch: 0.8611
+Training loss (for one batch) at step 236: 0.3749
+Seen so far: 15168 samples
+Training acc over epoch: 0.8608
+Training loss (for one batch) at step 237: 0.2594
+Seen so far: 15232 samples
+Training acc over epoch: 0.8610
+Training loss (for one batch) at step 238: 0.2822
+Seen so far: 15296 samples
+Training acc over epoch: 0.8613
+Training loss (for one batch) at step 239: 0.3631
+Seen so far: 15360 samples
+Training acc over epoch: 0.8612
+Training loss (for one batch) at step 240: 0.2324
+Seen so far: 15424 samples
+Training acc over epoch: 0.8615
+Validation acc: 0.8566
+Time taken: 944.80s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 241: 0.3825
+Seen so far: 15488 samples
+Training acc over epoch: 0.8615
+Training loss (for one batch) at step 242: 0.3969
+Seen so far: 15552 samples
+Training acc over epoch: 0.8614
+Training loss (for one batch) at step 243: 0.2697
+Seen so far: 15616 samples
+Training acc over epoch: 0.8614
+Training loss (for one batch) at step 244: 0.2905
+Seen so far: 15680 samples
+Training acc over epoch: 0.8616
+Training loss (for one batch) at step 245: 0.3483
+Seen so far: 15744 samples
+Training acc over epoch: 0.8615
+Training loss (for one batch) at step 246: 0.2581
+Seen so far: 15808 samples
+Training acc over epoch: 0.8618
+Training loss (for one batch) at step 247: 0.3059
+Seen so far: 15872 samples
+Training acc over epoch: 0.8618
+Training loss (for one batch) at step 248: 0.3139
+Seen so far: 15936 samples
+Training acc over epoch: 0.8619
+Training loss (for one batch) at step 249: 0.2829
+Seen so far: 16000 samples
+Training acc over epoch: 0.8619
+Training loss (for one batch) at step 250: 0.3720
+Seen so far: 16064 samples
+Training acc over epoch: 0.8618
+Training loss (for one batch) at step 251: 0.2361
+Seen so far: 16128 samples
+Training acc over epoch: 0.8621
+Training loss (for one batch) at step 252: 0.3037
+Seen so far: 16192 samples
+Training acc over epoch: 0.8623
+Training loss (for one batch) at step 253: 0.2983
+Seen so far: 16256 samples
+Training acc over epoch: 0.8625
+Training loss (for one batch) at step 254: 0.3807
+Seen so far: 16320 samples
+Training acc over epoch: 0.8625
+Training loss (for one batch) at step 255: 0.2304
+Seen so far: 16384 samples
+Training acc over epoch: 0.8629
+Training loss (for one batch) at step 256: 0.4210
+Seen so far: 16448 samples
+Training acc over epoch: 0.8628
+Training loss (for one batch) at step 257: 0.3489
+Seen so far: 16512 samples
+Training acc over epoch: 0.8629
+Training loss (for one batch) at step 258: 0.3894
+Seen so far: 16576 samples
+Training acc over epoch: 0.8627
+Training loss (for one batch) at step 259: 0.2253
+Seen so far: 16640 samples
+Training acc over epoch: 0.8630
+Training loss (for one batch) at step 260: 0.2183
+Seen so far: 16704 samples
+Training acc over epoch: 0.8633
+Training loss (for one batch) at step 261: 0.2465
+Seen so far: 16768 samples
+Training acc over epoch: 0.8636
+Training loss (for one batch) at step 262: 0.2788
+Seen so far: 16832 samples
+Training acc over epoch: 0.8638
+Training loss (for one batch) at step 263: 0.3567
+Seen so far: 16896 samples
+Training acc over epoch: 0.8639
+Training loss (for one batch) at step 264: 0.3210
+Seen so far: 16960 samples
+Training acc over epoch: 0.8640
+Training loss (for one batch) at step 265: 0.2055
+Seen so far: 17024 samples
+Training acc over epoch: 0.8644
+Training loss (for one batch) at step 266: 0.2617
+Seen so far: 17088 samples
+Training acc over epoch: 0.8645
+Training loss (for one batch) at step 267: 0.2982
+Seen so far: 17152 samples
+Training acc over epoch: 0.8647
+Training loss (for one batch) at step 268: 0.3686
+Seen so far: 17216 samples
+Training acc over epoch: 0.8647
+Training loss (for one batch) at step 269: 0.2517
+Seen so far: 17280 samples
+Training acc over epoch: 0.8649
+Training loss (for one batch) at step 270: 0.1862
+Seen so far: 17344 samples
+Training acc over epoch: 0.8652
+Validation acc: 0.8701
+Time taken: 1065.74s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 271: 0.2716
+Seen so far: 17408 samples
+Training acc over epoch: 0.8653
+Training loss (for one batch) at step 272: 0.3211
+Seen so far: 17472 samples
+Training acc over epoch: 0.8654
+Training loss (for one batch) at step 273: 0.2173
+Seen so far: 17536 samples
+Training acc over epoch: 0.8656
+Training loss (for one batch) at step 274: 0.2272
+Seen so far: 17600 samples
+Training acc over epoch: 0.8659
+Training loss (for one batch) at step 275: 0.2040
+Seen so far: 17664 samples
+Training acc over epoch: 0.8663
+Training loss (for one batch) at step 276: 0.2955
+Seen so far: 17728 samples
+Training acc over epoch: 0.8664
+Training loss (for one batch) at step 277: 0.3228
+Seen so far: 17792 samples
+Training acc over epoch: 0.8665
+Training loss (for one batch) at step 278: 0.2748
+Seen so far: 17856 samples
+Training acc over epoch: 0.8668
+Training loss (for one batch) at step 279: 0.2298
+Seen so far: 17920 samples
+Training acc over epoch: 0.8670
+Training loss (for one batch) at step 280: 0.2678
+Seen so far: 17984 samples
+Training acc over epoch: 0.8671
+Training loss (for one batch) at step 281: 0.2062
+Seen so far: 18048 samples
+Training acc over epoch: 0.8675
+Training loss (for one batch) at step 282: 0.3011
+Seen so far: 18112 samples
+Training acc over epoch: 0.8675
+Training loss (for one batch) at step 283: 0.3012
+Seen so far: 18176 samples
+Training acc over epoch: 0.8676
+Training loss (for one batch) at step 284: 0.2973
+Seen so far: 18240 samples
+Training acc over epoch: 0.8678
+Training loss (for one batch) at step 285: 0.3277
+Seen so far: 18304 samples
+Training acc over epoch: 0.8679
+Training loss (for one batch) at step 286: 0.3034
+Seen so far: 18368 samples
+Training acc over epoch: 0.8679
+Training loss (for one batch) at step 287: 0.2208
+Seen so far: 18432 samples
+Training acc over epoch: 0.8681
+Training loss (for one batch) at step 288: 0.3344
+Seen so far: 18496 samples
+Training acc over epoch: 0.8681
+Training loss (for one batch) at step 289: 0.2942
+Seen so far: 18560 samples
+Training acc over epoch: 0.8682
+Training loss (for one batch) at step 290: 0.2499
+Seen so far: 18624 samples
+Training acc over epoch: 0.8683
+Training loss (for one batch) at step 291: 0.2997
+Seen so far: 18688 samples
+Training acc over epoch: 0.8683
+Training loss (for one batch) at step 292: 0.2195
+Seen so far: 18752 samples
+Training acc over epoch: 0.8685
+Training loss (for one batch) at step 293: 0.2687
+Seen so far: 18816 samples
+Training acc over epoch: 0.8687
+Training loss (for one batch) at step 294: 0.4078
+Seen so far: 18880 samples
+Training acc over epoch: 0.8685
+Training loss (for one batch) at step 295: 0.2294
+Seen so far: 18944 samples
+Training acc over epoch: 0.8688
+Training loss (for one batch) at step 296: 0.2435
+Seen so far: 19008 samples
+Training acc over epoch: 0.8690
+Training loss (for one batch) at step 297: 0.2079
+Seen so far: 19072 samples
+Training acc over epoch: 0.8693
+Training loss (for one batch) at step 298: 0.2567
+Seen so far: 19136 samples
+Training acc over epoch: 0.8695
+Training loss (for one batch) at step 299: 0.2825
+Seen so far: 19200 samples
+Training acc over epoch: 0.8695
+Training loss (for one batch) at step 300: 0.2922
+Seen so far: 19264 samples
+Training acc over epoch: 0.8695
+Validation acc: 0.8695
+Time taken: 1187.23s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 301: 0.3298
+Seen so far: 19328 samples
+Training acc over epoch: 0.8695
+Training loss (for one batch) at step 302: 0.3671
+Seen so far: 19392 samples
+Training acc over epoch: 0.8694
+Training loss (for one batch) at step 303: 0.3317
+Seen so far: 19456 samples
+Training acc over epoch: 0.8692
+Training loss (for one batch) at step 304: 0.2792
+Seen so far: 19520 samples
+Training acc over epoch: 0.8694
+Training loss (for one batch) at step 305: 0.2480
+Seen so far: 19584 samples
+Training acc over epoch: 0.8695
+Training loss (for one batch) at step 306: 0.2467
+Seen so far: 19648 samples
+Training acc over epoch: 0.8697
+Training loss (for one batch) at step 307: 0.2627
+Seen so far: 19712 samples
+Training acc over epoch: 0.8698
+Training loss (for one batch) at step 308: 0.3187
+Seen so far: 19776 samples
+Training acc over epoch: 0.8699
+Training loss (for one batch) at step 309: 0.2577
+Seen so far: 19840 samples
+Training acc over epoch: 0.8701
+Training loss (for one batch) at step 310: 0.3225
+Seen so far: 19904 samples
+Training acc over epoch: 0.8701
+Training loss (for one batch) at step 311: 0.3512
+Seen so far: 19968 samples
+Training acc over epoch: 0.8699
+Training loss (for one batch) at step 312: 0.3092
+Seen so far: 20032 samples
+Training acc over epoch: 0.8699
+Testing Accuracy: 86.32%
+
+Start of epoch 2
+Training loss (for one batch) at step 0: 0.2346
+Seen so far: 64 samples
+Training acc over epoch: 0.9062
+Training loss (for one batch) at step 1: 0.2046
+Seen so far: 128 samples
+Training acc over epoch: 0.9219
+Training loss (for one batch) at step 2: 0.2553
+Seen so far: 192 samples
+Training acc over epoch: 0.9219
+Training loss (for one batch) at step 3: 0.1843
+Seen so far: 256 samples
+Training acc over epoch: 0.9297
+Training loss (for one batch) at step 4: 0.1944
+Seen so far: 320 samples
+Training acc over epoch: 0.9312
+Training loss (for one batch) at step 5: 0.4295
+Seen so far: 384 samples
+Training acc over epoch: 0.9141
+Training loss (for one batch) at step 6: 0.1232
+Seen so far: 448 samples
+Training acc over epoch: 0.9219
+Training loss (for one batch) at step 7: 0.1776
+Seen so far: 512 samples
+Training acc over epoch: 0.9258
+Training loss (for one batch) at step 8: 0.2698
+Seen so far: 576 samples
+Training acc over epoch: 0.9201
+Training loss (for one batch) at step 9: 0.1940
+Seen so far: 640 samples
+Training acc over epoch: 0.9234
+Training loss (for one batch) at step 10: 0.2331
+Seen so far: 704 samples
+Training acc over epoch: 0.9233
+Training loss (for one batch) at step 11: 0.3028
+Seen so far: 768 samples
+Training acc over epoch: 0.9193
+Training loss (for one batch) at step 12: 0.2073
+Seen so far: 832 samples
+Training acc over epoch: 0.9183
+Training loss (for one batch) at step 13: 0.2114
+Seen so far: 896 samples
+Training acc over epoch: 0.9174
+Training loss (for one batch) at step 14: 0.2397
+Seen so far: 960 samples
+Training acc over epoch: 0.9135
+Training loss (for one batch) at step 15: 0.2075
+Seen so far: 1024 samples
+Training acc over epoch: 0.9150
+Training loss (for one batch) at step 16: 0.2908
+Seen so far: 1088 samples
+Training acc over epoch: 0.9108
+Training loss (for one batch) at step 17: 0.3194
+Seen so far: 1152 samples
+Training acc over epoch: 0.9080
+Training loss (for one batch) at step 18: 0.2568
+Seen so far: 1216 samples
+Training acc over epoch: 0.9079
+Training loss (for one batch) at step 19: 0.1542
+Seen so far: 1280 samples
+Training acc over epoch: 0.9109
+Training loss (for one batch) at step 20: 0.3092
+Seen so far: 1344 samples
+Training acc over epoch: 0.9085
+Training loss (for one batch) at step 21: 0.2404
+Seen so far: 1408 samples
+Training acc over epoch: 0.9091
+Training loss (for one batch) at step 22: 0.3211
+Seen so far: 1472 samples
+Training acc over epoch: 0.9062
+Training loss (for one batch) at step 23: 0.3001
+Seen so far: 1536 samples
+Training acc over epoch: 0.9030
+Training loss (for one batch) at step 24: 0.2930
+Seen so far: 1600 samples
+Training acc over epoch: 0.9031
+Training loss (for one batch) at step 25: 0.3531
+Seen so far: 1664 samples
+Training acc over epoch: 0.9026
+Training loss (for one batch) at step 26: 0.3386
+Seen so far: 1728 samples
+Training acc over epoch: 0.9005
+Training loss (for one batch) at step 27: 0.2237
+Seen so far: 1792 samples
+Training acc over epoch: 0.9012
+Training loss (for one batch) at step 28: 0.2740
+Seen so far: 1856 samples
+Training acc over epoch: 0.9014
+Training loss (for one batch) at step 29: 0.3220
+Seen so far: 1920 samples
+Training acc over epoch: 0.9005
+Training loss (for one batch) at step 30: 0.2268
+Seen so far: 1984 samples
+Training acc over epoch: 0.9007
+Validation acc: 0.8612
+Time taken: 40.61s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 31: 0.2878
+Seen so far: 2048 samples
+Training acc over epoch: 0.9004
+Training loss (for one batch) at step 32: 0.2625
+Seen so far: 2112 samples
+Training acc over epoch: 0.8996
+Training loss (for one batch) at step 33: 0.2777
+Seen so far: 2176 samples
+Training acc over epoch: 0.8994
+Training loss (for one batch) at step 34: 0.2371
+Seen so far: 2240 samples
+Training acc over epoch: 0.8982
+Training loss (for one batch) at step 35: 0.4296
+Seen so far: 2304 samples
+Training acc over epoch: 0.8967
+Training loss (for one batch) at step 36: 0.2524
+Seen so far: 2368 samples
+Training acc over epoch: 0.8970
+Training loss (for one batch) at step 37: 0.2698
+Seen so far: 2432 samples
+Training acc over epoch: 0.8976
+Training loss (for one batch) at step 38: 0.4006
+Seen so far: 2496 samples
+Training acc over epoch: 0.8962
+Training loss (for one batch) at step 39: 0.2411
+Seen so far: 2560 samples
+Training acc over epoch: 0.8965
+Training loss (for one batch) at step 40: 0.4384
+Seen so far: 2624 samples
+Training acc over epoch: 0.8952
+Training loss (for one batch) at step 41: 0.2543
+Seen so far: 2688 samples
+Training acc over epoch: 0.8962
+Training loss (for one batch) at step 42: 0.2303
+Seen so far: 2752 samples
+Training acc over epoch: 0.8964
+Training loss (for one batch) at step 43: 0.2142
+Seen so far: 2816 samples
+Training acc over epoch: 0.8970
+Training loss (for one batch) at step 44: 0.2644
+Seen so far: 2880 samples
+Training acc over epoch: 0.8969
+Training loss (for one batch) at step 45: 0.2540
+Seen so far: 2944 samples
+Training acc over epoch: 0.8971
+Training loss (for one batch) at step 46: 0.2911
+Seen so far: 3008 samples
+Training acc over epoch: 0.8966
+Training loss (for one batch) at step 47: 0.2198
+Seen so far: 3072 samples
+Training acc over epoch: 0.8968
+Training loss (for one batch) at step 48: 0.2394
+Seen so far: 3136 samples
+Training acc over epoch: 0.8964
+Training loss (for one batch) at step 49: 0.2016
+Seen so far: 3200 samples
+Training acc over epoch: 0.8963
+Training loss (for one batch) at step 50: 0.2901
+Seen so far: 3264 samples
+Training acc over epoch: 0.8968
+Training loss (for one batch) at step 51: 0.3456
+Seen so far: 3328 samples
+Training acc over epoch: 0.8954
+Training loss (for one batch) at step 52: 0.1754
+Seen so far: 3392 samples
+Training acc over epoch: 0.8965
+Training loss (for one batch) at step 53: 0.2629
+Seen so far: 3456 samples
+Training acc over epoch: 0.8961
+Training loss (for one batch) at step 54: 0.2225
+Seen so far: 3520 samples
+Training acc over epoch: 0.8963
+Training loss (for one batch) at step 55: 0.1942
+Seen so far: 3584 samples
+Training acc over epoch: 0.8965
+Training loss (for one batch) at step 56: 0.1935
+Seen so far: 3648 samples
+Training acc over epoch: 0.8969
+Training loss (for one batch) at step 57: 0.2447
+Seen so far: 3712 samples
+Training acc over epoch: 0.8968
+Training loss (for one batch) at step 58: 0.3236
+Seen so far: 3776 samples
+Training acc over epoch: 0.8959
+Training loss (for one batch) at step 59: 0.3122
+Seen so far: 3840 samples
+Training acc over epoch: 0.8956
+Training loss (for one batch) at step 60: 0.2925
+Seen so far: 3904 samples
+Training acc over epoch: 0.8957
+Validation acc: 0.8645
+Time taken: 162.19s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 61: 0.2849
+Seen so far: 3968 samples
+Training acc over epoch: 0.8952
+Training loss (for one batch) at step 62: 0.1513
+Seen so far: 4032 samples
+Training acc over epoch: 0.8956
+Training loss (for one batch) at step 63: 0.1791
+Seen so far: 4096 samples
+Training acc over epoch: 0.8960
+Training loss (for one batch) at step 64: 0.2248
+Seen so far: 4160 samples
+Training acc over epoch: 0.8957
+Training loss (for one batch) at step 65: 0.3275
+Seen so far: 4224 samples
+Training acc over epoch: 0.8956
+Training loss (for one batch) at step 66: 0.1774
+Seen so far: 4288 samples
+Training acc over epoch: 0.8965
+Training loss (for one batch) at step 67: 0.3066
+Seen so far: 4352 samples
+Training acc over epoch: 0.8959
+Training loss (for one batch) at step 68: 0.2716
+Seen so far: 4416 samples
+Training acc over epoch: 0.8961
+Training loss (for one batch) at step 69: 0.2946
+Seen so far: 4480 samples
+Training acc over epoch: 0.8962
+Training loss (for one batch) at step 70: 0.4083
+Seen so far: 4544 samples
+Training acc over epoch: 0.8948
+Training loss (for one batch) at step 71: 0.2118
+Seen so far: 4608 samples
+Training acc over epoch: 0.8954
+Training loss (for one batch) at step 72: 0.3032
+Seen so far: 4672 samples
+Training acc over epoch: 0.8949
+Training loss (for one batch) at step 73: 0.2359
+Seen so far: 4736 samples
+Training acc over epoch: 0.8946
+Training loss (for one batch) at step 74: 0.3152
+Seen so far: 4800 samples
+Training acc over epoch: 0.8948
+Training loss (for one batch) at step 75: 0.3016
+Seen so far: 4864 samples
+Training acc over epoch: 0.8945
+Training loss (for one batch) at step 76: 0.2747
+Seen so far: 4928 samples
+Training acc over epoch: 0.8945
+Training loss (for one batch) at step 77: 0.2591
+Seen so far: 4992 samples
+Training acc over epoch: 0.8944
+Training loss (for one batch) at step 78: 0.2724
+Seen so far: 5056 samples
+Training acc over epoch: 0.8944
+Training loss (for one batch) at step 79: 0.3501
+Seen so far: 5120 samples
+Training acc over epoch: 0.8936
+Training loss (for one batch) at step 80: 0.1784
+Seen so far: 5184 samples
+Training acc over epoch: 0.8941
+Training loss (for one batch) at step 81: 0.3696
+Seen so far: 5248 samples
+Training acc over epoch: 0.8937
+Training loss (for one batch) at step 82: 0.2599
+Seen so far: 5312 samples
+Training acc over epoch: 0.8940
+Training loss (for one batch) at step 83: 0.2594
+Seen so far: 5376 samples
+Training acc over epoch: 0.8943
+Training loss (for one batch) at step 84: 0.3233
+Seen so far: 5440 samples
+Training acc over epoch: 0.8941
+Training loss (for one batch) at step 85: 0.2639
+Seen so far: 5504 samples
+Training acc over epoch: 0.8944
+Training loss (for one batch) at step 86: 0.2740
+Seen so far: 5568 samples
+Training acc over epoch: 0.8946
+Training loss (for one batch) at step 87: 0.3191
+Seen so far: 5632 samples
+Training acc over epoch: 0.8942
+Training loss (for one batch) at step 88: 0.2488
+Seen so far: 5696 samples
+Training acc over epoch: 0.8940
+Training loss (for one batch) at step 89: 0.3043
+Seen so far: 5760 samples
+Training acc over epoch: 0.8936
+Training loss (for one batch) at step 90: 0.2995
+Seen so far: 5824 samples
+Training acc over epoch: 0.8934
+Validation acc: 0.8552
+Time taken: 283.12s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 91: 0.3515
+Seen so far: 5888 samples
+Training acc over epoch: 0.8927
+Training loss (for one batch) at step 92: 0.3132
+Seen so far: 5952 samples
+Training acc over epoch: 0.8923
+Training loss (for one batch) at step 93: 0.1708
+Seen so far: 6016 samples
+Training acc over epoch: 0.8931
+Training loss (for one batch) at step 94: 0.1622
+Seen so far: 6080 samples
+Training acc over epoch: 0.8941
+Training loss (for one batch) at step 95: 0.3277
+Seen so far: 6144 samples
+Training acc over epoch: 0.8940
+Training loss (for one batch) at step 96: 0.1866
+Seen so far: 6208 samples
+Training acc over epoch: 0.8942
+Training loss (for one batch) at step 97: 0.3453
+Seen so far: 6272 samples
+Training acc over epoch: 0.8940
+Training loss (for one batch) at step 98: 0.2831
+Seen so far: 6336 samples
+Training acc over epoch: 0.8941
+Training loss (for one batch) at step 99: 0.2229
+Seen so far: 6400 samples
+Training acc over epoch: 0.8942
+Training loss (for one batch) at step 100: 0.2168
+Seen so far: 6464 samples
+Training acc over epoch: 0.8945
+Training loss (for one batch) at step 101: 0.3499
+Seen so far: 6528 samples
+Training acc over epoch: 0.8943
+Training loss (for one batch) at step 102: 0.2271
+Seen so far: 6592 samples
+Training acc over epoch: 0.8947
+Training loss (for one batch) at step 103: 0.1917
+Seen so far: 6656 samples
+Training acc over epoch: 0.8951
+Training loss (for one batch) at step 104: 0.3128
+Seen so far: 6720 samples
+Training acc over epoch: 0.8952
+Training loss (for one batch) at step 105: 0.2346
+Seen so far: 6784 samples
+Training acc over epoch: 0.8953
+Training loss (for one batch) at step 106: 0.2360
+Seen so far: 6848 samples
+Training acc over epoch: 0.8954
+Training loss (for one batch) at step 107: 0.2763
+Seen so far: 6912 samples
+Training acc over epoch: 0.8954
+Training loss (for one batch) at step 108: 0.2266
+Seen so far: 6976 samples
+Training acc over epoch: 0.8954
+Training loss (for one batch) at step 109: 0.2378
+Seen so far: 7040 samples
+Training acc over epoch: 0.8956
+Training loss (for one batch) at step 110: 0.2136
+Seen so far: 7104 samples
+Training acc over epoch: 0.8960
+Training loss (for one batch) at step 111: 0.2296
+Seen so far: 7168 samples
+Training acc over epoch: 0.8962
+Training loss (for one batch) at step 112: 0.2192
+Seen so far: 7232 samples
+Training acc over epoch: 0.8967
+Training loss (for one batch) at step 113: 0.2728
+Seen so far: 7296 samples
+Training acc over epoch: 0.8965
+Training loss (for one batch) at step 114: 0.3090
+Seen so far: 7360 samples
+Training acc over epoch: 0.8963
+Training loss (for one batch) at step 115: 0.1437
+Seen so far: 7424 samples
+Training acc over epoch: 0.8971
+Training loss (for one batch) at step 116: 0.2732
+Seen so far: 7488 samples
+Training acc over epoch: 0.8970
+Training loss (for one batch) at step 117: 0.2092
+Seen so far: 7552 samples
+Training acc over epoch: 0.8971
+Training loss (for one batch) at step 118: 0.2380
+Seen so far: 7616 samples
+Training acc over epoch: 0.8972
+Training loss (for one batch) at step 119: 0.2360
+Seen so far: 7680 samples
+Training acc over epoch: 0.8973
+Training loss (for one batch) at step 120: 0.1747
+Seen so far: 7744 samples
+Training acc over epoch: 0.8975
+Validation acc: 0.8669
+Time taken: 403.48s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 121: 0.2278
+Seen so far: 7808 samples
+Training acc over epoch: 0.8977
+Training loss (for one batch) at step 122: 0.3036
+Seen so far: 7872 samples
+Training acc over epoch: 0.8974
+Training loss (for one batch) at step 123: 0.2955
+Seen so far: 7936 samples
+Training acc over epoch: 0.8973
+Training loss (for one batch) at step 124: 0.2230
+Seen so far: 8000 samples
+Training acc over epoch: 0.8972
+Training loss (for one batch) at step 125: 0.2714
+Seen so far: 8064 samples
+Training acc over epoch: 0.8974
+Training loss (for one batch) at step 126: 0.3050
+Seen so far: 8128 samples
+Training acc over epoch: 0.8971
+Training loss (for one batch) at step 127: 0.3225
+Seen so far: 8192 samples
+Training acc over epoch: 0.8971
+Training loss (for one batch) at step 128: 0.1543
+Seen so far: 8256 samples
+Training acc over epoch: 0.8978
+Training loss (for one batch) at step 129: 0.3486
+Seen so far: 8320 samples
+Training acc over epoch: 0.8974
+Training loss (for one batch) at step 130: 0.2058
+Seen so far: 8384 samples
+Training acc over epoch: 0.8979
+Training loss (for one batch) at step 131: 0.1833
+Seen so far: 8448 samples
+Training acc over epoch: 0.8981
+Training loss (for one batch) at step 132: 0.2198
+Seen so far: 8512 samples
+Training acc over epoch: 0.8983
+Training loss (for one batch) at step 133: 0.1953
+Seen so far: 8576 samples
+Training acc over epoch: 0.8986
+Training loss (for one batch) at step 134: 0.3182
+Seen so far: 8640 samples
+Training acc over epoch: 0.8986
+Training loss (for one batch) at step 135: 0.2898
+Seen so far: 8704 samples
+Training acc over epoch: 0.8986
+Training loss (for one batch) at step 136: 0.3229
+Seen so far: 8768 samples
+Training acc over epoch: 0.8984
+Training loss (for one batch) at step 137: 0.2425
+Seen so far: 8832 samples
+Training acc over epoch: 0.8983
+Training loss (for one batch) at step 138: 0.3320
+Seen so far: 8896 samples
+Training acc over epoch: 0.8980
+Training loss (for one batch) at step 139: 0.2036
+Seen so far: 8960 samples
+Training acc over epoch: 0.8984
+Training loss (for one batch) at step 140: 0.1613
+Seen so far: 9024 samples
+Training acc over epoch: 0.8990
+Training loss (for one batch) at step 141: 0.3266
+Seen so far: 9088 samples
+Training acc over epoch: 0.8988
+Training loss (for one batch) at step 142: 0.2286
+Seen so far: 9152 samples
+Training acc over epoch: 0.8990
+Training loss (for one batch) at step 143: 0.2807
+Seen so far: 9216 samples
+Training acc over epoch: 0.8992
+Training loss (for one batch) at step 144: 0.2558
+Seen so far: 9280 samples
+Training acc over epoch: 0.8992
+Training loss (for one batch) at step 145: 0.2619
+Seen so far: 9344 samples
+Training acc over epoch: 0.8992
+Training loss (for one batch) at step 146: 0.2746
+Seen so far: 9408 samples
+Training acc over epoch: 0.8992
+Training loss (for one batch) at step 147: 0.2890
+Seen so far: 9472 samples
+Training acc over epoch: 0.8991
+Training loss (for one batch) at step 148: 0.1974
+Seen so far: 9536 samples
+Training acc over epoch: 0.8993
+Training loss (for one batch) at step 149: 0.2583
+Seen so far: 9600 samples
+Training acc over epoch: 0.8994
+Training loss (for one batch) at step 150: 0.2121
+Seen so far: 9664 samples
+Training acc over epoch: 0.8996
+Validation acc: 0.8782
+Time taken: 523.93s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Testing Accuracy: 87.23%
+Training loss (for one batch) at step 151: 0.1890
+Seen so far: 9728 samples
+Training acc over epoch: 0.9001
+Training loss (for one batch) at step 152: 0.2862
+Seen so far: 9792 samples
+Training acc over epoch: 0.9002
+Training loss (for one batch) at step 153: 0.1744
+Seen so far: 9856 samples
+Training acc over epoch: 0.9008
+Training loss (for one batch) at step 154: 0.2478
+Seen so far: 9920 samples
+Training acc over epoch: 0.9009
+Training loss (for one batch) at step 155: 0.2430
+Seen so far: 9984 samples
+Training acc over epoch: 0.9010
+Training loss (for one batch) at step 156: 0.1931
+Seen so far: 10048 samples
+Training acc over epoch: 0.9012
+Training loss (for one batch) at step 157: 0.1767
+Seen so far: 10112 samples
+Training acc over epoch: 0.9015
+Training loss (for one batch) at step 158: 0.2680
+Seen so far: 10176 samples
+Training acc over epoch: 0.9015
+Training loss (for one batch) at step 159: 0.2587
+Seen so far: 10240 samples
+Training acc over epoch: 0.9016
+Training loss (for one batch) at step 160: 0.2760
+Seen so far: 10304 samples
+Training acc over epoch: 0.9015
+Training loss (for one batch) at step 161: 0.2063
+Seen so far: 10368 samples
+Training acc over epoch: 0.9017
+Training loss (for one batch) at step 162: 0.1432
+Seen so far: 10432 samples
+Training acc over epoch: 0.9022
+Training loss (for one batch) at step 163: 0.2482
+Seen so far: 10496 samples
+Training acc over epoch: 0.9023
+Training loss (for one batch) at step 164: 0.2972
+Seen so far: 10560 samples
+Training acc over epoch: 0.9024
+Training loss (for one batch) at step 165: 0.2456
+Seen so far: 10624 samples
+Training acc over epoch: 0.9026
+Training loss (for one batch) at step 166: 0.2575
+Seen so far: 10688 samples
+Training acc over epoch: 0.9027
+Training loss (for one batch) at step 167: 0.2778
+Seen so far: 10752 samples
+Training acc over epoch: 0.9030
+Training loss (for one batch) at step 168: 0.2249
+Seen so far: 10816 samples
+Training acc over epoch: 0.9030
+Training loss (for one batch) at step 169: 0.2444
+Seen so far: 10880 samples
+Training acc over epoch: 0.9029
+Training loss (for one batch) at step 170: 0.2293
+Seen so far: 10944 samples
+Training acc over epoch: 0.9031
+Training loss (for one batch) at step 171: 0.3818
+Seen so far: 11008 samples
+Training acc over epoch: 0.9030
+Training loss (for one batch) at step 172: 0.2121
+Seen so far: 11072 samples
+Training acc over epoch: 0.9032
+Training loss (for one batch) at step 173: 0.2890
+Seen so far: 11136 samples
+Training acc over epoch: 0.9032
+Training loss (for one batch) at step 174: 0.1939
+Seen so far: 11200 samples
+Training acc over epoch: 0.9036
+Training loss (for one batch) at step 175: 0.2664
+Seen so far: 11264 samples
+Training acc over epoch: 0.9034
+Training loss (for one batch) at step 176: 0.3099
+Seen so far: 11328 samples
+Training acc over epoch: 0.9035
+Training loss (for one batch) at step 177: 0.2123
+Seen so far: 11392 samples
+Training acc over epoch: 0.9036
+Training loss (for one batch) at step 178: 0.2123
+Seen so far: 11456 samples
+Training acc over epoch: 0.9037
+Training loss (for one batch) at step 179: 0.2538
+Seen so far: 11520 samples
+Training acc over epoch: 0.9037
+Training loss (for one batch) at step 180: 0.2090
+Seen so far: 11584 samples
+Training acc over epoch: 0.9037
+Validation acc: 0.8786
+Time taken: 694.93s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 181: 0.3313
+Seen so far: 11648 samples
+Training acc over epoch: 0.9038
+Training loss (for one batch) at step 182: 0.2211
+Seen so far: 11712 samples
+Training acc over epoch: 0.9039
+Training loss (for one batch) at step 183: 0.2908
+Seen so far: 11776 samples
+Training acc over epoch: 0.9036
+Training loss (for one batch) at step 184: 0.1941
+Seen so far: 11840 samples
+Training acc over epoch: 0.9038
+Training loss (for one batch) at step 185: 0.2875
+Seen so far: 11904 samples
+Training acc over epoch: 0.9036
+Training loss (for one batch) at step 186: 0.3070
+Seen so far: 11968 samples
+Training acc over epoch: 0.9033
+Training loss (for one batch) at step 187: 0.3622
+Seen so far: 12032 samples
+Training acc over epoch: 0.9030
+Training loss (for one batch) at step 188: 0.3361
+Seen so far: 12096 samples
+Training acc over epoch: 0.9029
+Training loss (for one batch) at step 189: 0.2985
+Seen so far: 12160 samples
+Training acc over epoch: 0.9029
+Training loss (for one batch) at step 190: 0.3279
+Seen so far: 12224 samples
+Training acc over epoch: 0.9028
+Training loss (for one batch) at step 191: 0.2629
+Seen so far: 12288 samples
+Training acc over epoch: 0.9028
+Training loss (for one batch) at step 192: 0.2017
+Seen so far: 12352 samples
+Training acc over epoch: 0.9031
+Training loss (for one batch) at step 193: 0.2957
+Seen so far: 12416 samples
+Training acc over epoch: 0.9030
+Training loss (for one batch) at step 194: 0.2289
+Seen so far: 12480 samples
+Training acc over epoch: 0.9030
+Training loss (for one batch) at step 195: 0.3133
+Seen so far: 12544 samples
+Training acc over epoch: 0.9025
+Training loss (for one batch) at step 196: 0.1911
+Seen so far: 12608 samples
+Training acc over epoch: 0.9026
+Training loss (for one batch) at step 197: 0.2667
+Seen so far: 12672 samples
+Training acc over epoch: 0.9025
+Training loss (for one batch) at step 198: 0.2358
+Seen so far: 12736 samples
+Training acc over epoch: 0.9027
+Training loss (for one batch) at step 199: 0.2754
+Seen so far: 12800 samples
+Training acc over epoch: 0.9029
+Training loss (for one batch) at step 200: 0.2724
+Seen so far: 12864 samples
+Training acc over epoch: 0.9028
+Training loss (for one batch) at step 201: 0.2198
+Seen so far: 12928 samples
+Training acc over epoch: 0.9031
+Training loss (for one batch) at step 202: 0.3007
+Seen so far: 12992 samples
+Training acc over epoch: 0.9031
+Training loss (for one batch) at step 203: 0.3240
+Seen so far: 13056 samples
+Training acc over epoch: 0.9028
+Training loss (for one batch) at step 204: 0.2148
+Seen so far: 13120 samples
+Training acc over epoch: 0.9030
+Training loss (for one batch) at step 205: 0.2397
+Seen so far: 13184 samples
+Training acc over epoch: 0.9031
+Training loss (for one batch) at step 206: 0.2569
+Seen so far: 13248 samples
+Training acc over epoch: 0.9030
+Training loss (for one batch) at step 207: 0.1545
+Seen so far: 13312 samples
+Training acc over epoch: 0.9032
+Training loss (for one batch) at step 208: 0.2480
+Seen so far: 13376 samples
+Training acc over epoch: 0.9033
+Training loss (for one batch) at step 209: 0.3013
+Seen so far: 13440 samples
+Training acc over epoch: 0.9033
+Training loss (for one batch) at step 210: 0.2234
+Seen so far: 13504 samples
+Training acc over epoch: 0.9035
+Validation acc: 0.8706
+Time taken: 816.35s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 211: 0.2090
+Seen so far: 13568 samples
+Training acc over epoch: 0.9037
+Training loss (for one batch) at step 212: 0.3120
+Seen so far: 13632 samples
+Training acc over epoch: 0.9035
+Training loss (for one batch) at step 213: 0.2703
+Seen so far: 13696 samples
+Training acc over epoch: 0.9035
+Training loss (for one batch) at step 214: 0.2732
+Seen so far: 13760 samples
+Training acc over epoch: 0.9035
+Training loss (for one batch) at step 215: 0.2900
+Seen so far: 13824 samples
+Training acc over epoch: 0.9034
+Training loss (for one batch) at step 216: 0.2455
+Seen so far: 13888 samples
+Training acc over epoch: 0.9036
+Training loss (for one batch) at step 217: 0.2332
+Seen so far: 13952 samples
+Training acc over epoch: 0.9038
+Training loss (for one batch) at step 218: 0.2800
+Seen so far: 14016 samples
+Training acc over epoch: 0.9036
+Training loss (for one batch) at step 219: 0.2443
+Seen so far: 14080 samples
+Training acc over epoch: 0.9038
+Training loss (for one batch) at step 220: 0.2339
+Seen so far: 14144 samples
+Training acc over epoch: 0.9037
+Training loss (for one batch) at step 221: 0.3092
+Seen so far: 14208 samples
+Training acc over epoch: 0.9036
+Training loss (for one batch) at step 222: 0.2050
+Seen so far: 14272 samples
+Training acc over epoch: 0.9039
+Training loss (for one batch) at step 223: 0.3097
+Seen so far: 14336 samples
+Training acc over epoch: 0.9037
+Training loss (for one batch) at step 224: 0.2941
+Seen so far: 14400 samples
+Training acc over epoch: 0.9036
+Training loss (for one batch) at step 225: 0.2429
+Seen so far: 14464 samples
+Training acc over epoch: 0.9037
+Training loss (for one batch) at step 226: 0.1970
+Seen so far: 14528 samples
+Training acc over epoch: 0.9038
+Training loss (for one batch) at step 227: 0.2190
+Seen so far: 14592 samples
+Training acc over epoch: 0.9039
+Training loss (for one batch) at step 228: 0.2212
+Seen so far: 14656 samples
+Training acc over epoch: 0.9042
+Training loss (for one batch) at step 229: 0.2778
+Seen so far: 14720 samples
+Training acc over epoch: 0.9041
+Training loss (for one batch) at step 230: 0.1839
+Seen so far: 14784 samples
+Training acc over epoch: 0.9043
+Training loss (for one batch) at step 231: 0.3522
+Seen so far: 14848 samples
+Training acc over epoch: 0.9041
+Training loss (for one batch) at step 232: 0.2986
+Seen so far: 14912 samples
+Training acc over epoch: 0.9040
+Training loss (for one batch) at step 233: 0.2489
+Seen so far: 14976 samples
+Training acc over epoch: 0.9039
+Training loss (for one batch) at step 234: 0.2046
+Seen so far: 15040 samples
+Training acc over epoch: 0.9041
+Training loss (for one batch) at step 235: 0.2917
+Seen so far: 15104 samples
+Training acc over epoch: 0.9041
+Training loss (for one batch) at step 236: 0.2572
+Seen so far: 15168 samples
+Training acc over epoch: 0.9043
+Training loss (for one batch) at step 237: 0.1738
+Seen so far: 15232 samples
+Training acc over epoch: 0.9045
+Training loss (for one batch) at step 238: 0.2096
+Seen so far: 15296 samples
+Training acc over epoch: 0.9046
+Training loss (for one batch) at step 239: 0.3042
+Seen so far: 15360 samples
+Training acc over epoch: 0.9046
+Training loss (for one batch) at step 240: 0.2989
+Seen so far: 15424 samples
+Training acc over epoch: 0.9045
+Validation acc: 0.8770
+Time taken: 939.20s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 241: 0.1836
+Seen so far: 15488 samples
+Training acc over epoch: 0.9047
+Training loss (for one batch) at step 242: 0.1978
+Seen so far: 15552 samples
+Training acc over epoch: 0.9048
+Training loss (for one batch) at step 243: 0.2266
+Seen so far: 15616 samples
+Training acc over epoch: 0.9048
+Training loss (for one batch) at step 244: 0.2868
+Seen so far: 15680 samples
+Training acc over epoch: 0.9046
+Training loss (for one batch) at step 245: 0.2938
+Seen so far: 15744 samples
+Training acc over epoch: 0.9046
+Training loss (for one batch) at step 246: 0.2771
+Seen so far: 15808 samples
+Training acc over epoch: 0.9045
+Training loss (for one batch) at step 247: 0.2877
+Seen so far: 15872 samples
+Training acc over epoch: 0.9044
+Training loss (for one batch) at step 248: 0.1855
+Seen so far: 15936 samples
+Training acc over epoch: 0.9047
+Training loss (for one batch) at step 249: 0.2628
+Seen so far: 16000 samples
+Training acc over epoch: 0.9047
+Training loss (for one batch) at step 250: 0.3395
+Seen so far: 16064 samples
+Training acc over epoch: 0.9045
+Training loss (for one batch) at step 251: 0.2489
+Seen so far: 16128 samples
+Training acc over epoch: 0.9045
+Training loss (for one batch) at step 252: 0.2151
+Seen so far: 16192 samples
+Training acc over epoch: 0.9046
+Training loss (for one batch) at step 253: 0.2268
+Seen so far: 16256 samples
+Training acc over epoch: 0.9047
+Training loss (for one batch) at step 254: 0.3035
+Seen so far: 16320 samples
+Training acc over epoch: 0.9046
+Training loss (for one batch) at step 255: 0.2570
+Seen so far: 16384 samples
+Training acc over epoch: 0.9045
+Training loss (for one batch) at step 256: 0.2204
+Seen so far: 16448 samples
+Training acc over epoch: 0.9047
+Training loss (for one batch) at step 257: 0.1939
+Seen so far: 16512 samples
+Training acc over epoch: 0.9048
+Training loss (for one batch) at step 258: 0.2695
+Seen so far: 16576 samples
+Training acc over epoch: 0.9049
+Training loss (for one batch) at step 259: 0.2007
+Seen so far: 16640 samples
+Training acc over epoch: 0.9050
+Training loss (for one batch) at step 260: 0.2580
+Seen so far: 16704 samples
+Training acc over epoch: 0.9051
+Training loss (for one batch) at step 261: 0.1898
+Seen so far: 16768 samples
+Training acc over epoch: 0.9052
+Training loss (for one batch) at step 262: 0.2663
+Seen so far: 16832 samples
+Training acc over epoch: 0.9051
+Training loss (for one batch) at step 263: 0.2279
+Seen so far: 16896 samples
+Training acc over epoch: 0.9053
+Training loss (for one batch) at step 264: 0.2080
+Seen so far: 16960 samples
+Training acc over epoch: 0.9054
+Training loss (for one batch) at step 265: 0.2180
+Seen so far: 17024 samples
+Training acc over epoch: 0.9056
+Training loss (for one batch) at step 266: 0.1631
+Seen so far: 17088 samples
+Training acc over epoch: 0.9057
+Training loss (for one batch) at step 267: 0.2730
+Seen so far: 17152 samples
+Training acc over epoch: 0.9057
+Training loss (for one batch) at step 268: 0.1939
+Seen so far: 17216 samples
+Training acc over epoch: 0.9060
+Training loss (for one batch) at step 269: 0.3370
+Seen so far: 17280 samples
+Training acc over epoch: 0.9059
+Training loss (for one batch) at step 270: 0.1955
+Seen so far: 17344 samples
+Training acc over epoch: 0.9061
+Validation acc: 0.8803
+Time taken: 1060.88s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 271: 0.1790
+Seen so far: 17408 samples
+Training acc over epoch: 0.9063
+Training loss (for one batch) at step 272: 0.2422
+Seen so far: 17472 samples
+Training acc over epoch: 0.9064
+Training loss (for one batch) at step 273: 0.2373
+Seen so far: 17536 samples
+Training acc over epoch: 0.9064
+Training loss (for one batch) at step 274: 0.2495
+Seen so far: 17600 samples
+Training acc over epoch: 0.9064
+Training loss (for one batch) at step 275: 0.2565
+Seen so far: 17664 samples
+Training acc over epoch: 0.9065
+Training loss (for one batch) at step 276: 0.3066
+Seen so far: 17728 samples
+Training acc over epoch: 0.9063
+Training loss (for one batch) at step 277: 0.1857
+Seen so far: 17792 samples
+Training acc over epoch: 0.9066
+Training loss (for one batch) at step 278: 0.2773
+Seen so far: 17856 samples
+Training acc over epoch: 0.9065
+Training loss (for one batch) at step 279: 0.3190
+Seen so far: 17920 samples
+Training acc over epoch: 0.9064
+Training loss (for one batch) at step 280: 0.2243
+Seen so far: 17984 samples
+Training acc over epoch: 0.9065
+Training loss (for one batch) at step 281: 0.1993
+Seen so far: 18048 samples
+Training acc over epoch: 0.9066
+Training loss (for one batch) at step 282: 0.2763
+Seen so far: 18112 samples
+Training acc over epoch: 0.9065
+Training loss (for one batch) at step 283: 0.2450
+Seen so far: 18176 samples
+Training acc over epoch: 0.9065
+Training loss (for one batch) at step 284: 0.1996
+Seen so far: 18240 samples
+Training acc over epoch: 0.9066
+Training loss (for one batch) at step 285: 0.2422
+Seen so far: 18304 samples
+Training acc over epoch: 0.9066
+Training loss (for one batch) at step 286: 0.2166
+Seen so far: 18368 samples
+Training acc over epoch: 0.9068
+Training loss (for one batch) at step 287: 0.2143
+Seen so far: 18432 samples
+Training acc over epoch: 0.9070
+Training loss (for one batch) at step 288: 0.2485
+Seen so far: 18496 samples
+Training acc over epoch: 0.9070
+Training loss (for one batch) at step 289: 0.1517
+Seen so far: 18560 samples
+Training acc over epoch: 0.9073
+Training loss (for one batch) at step 290: 0.2770
+Seen so far: 18624 samples
+Training acc over epoch: 0.9073
+Training loss (for one batch) at step 291: 0.2515
+Seen so far: 18688 samples
+Training acc over epoch: 0.9074
+Training loss (for one batch) at step 292: 0.1748
+Seen so far: 18752 samples
+Training acc over epoch: 0.9076
+Training loss (for one batch) at step 293: 0.2507
+Seen so far: 18816 samples
+Training acc over epoch: 0.9077
+Training loss (for one batch) at step 294: 0.2184
+Seen so far: 18880 samples
+Training acc over epoch: 0.9078
+Training loss (for one batch) at step 295: 0.1387
+Seen so far: 18944 samples
+Training acc over epoch: 0.9081
+Training loss (for one batch) at step 296: 0.2356
+Seen so far: 19008 samples
+Training acc over epoch: 0.9082
+Training loss (for one batch) at step 297: 0.2202
+Seen so far: 19072 samples
+Training acc over epoch: 0.9083
+Training loss (for one batch) at step 298: 0.2681
+Seen so far: 19136 samples
+Training acc over epoch: 0.9082
+Training loss (for one batch) at step 299: 0.2793
+Seen so far: 19200 samples
+Training acc over epoch: 0.9082
+Training loss (for one batch) at step 300: 0.2021
+Seen so far: 19264 samples
+Training acc over epoch: 0.9083
+Validation acc: 0.8782
+Time taken: 1182.89s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 301: 0.2393
+Seen so far: 19328 samples
+Training acc over epoch: 0.9082
+Training loss (for one batch) at step 302: 0.2037
+Seen so far: 19392 samples
+Training acc over epoch: 0.9084
+Training loss (for one batch) at step 303: 0.1882
+Seen so far: 19456 samples
+Training acc over epoch: 0.9086
+Training loss (for one batch) at step 304: 0.2395
+Seen so far: 19520 samples
+Training acc over epoch: 0.9087
+Training loss (for one batch) at step 305: 0.3270
+Seen so far: 19584 samples
+Training acc over epoch: 0.9087
+Training loss (for one batch) at step 306: 0.2880
+Seen so far: 19648 samples
+Training acc over epoch: 0.9087
+Training loss (for one batch) at step 307: 0.2966
+Seen so far: 19712 samples
+Training acc over epoch: 0.9086
+Training loss (for one batch) at step 308: 0.2202
+Seen so far: 19776 samples
+Training acc over epoch: 0.9086
+Training loss (for one batch) at step 309: 0.2788
+Seen so far: 19840 samples
+Training acc over epoch: 0.9085
+Training loss (for one batch) at step 310: 0.2205
+Seen so far: 19904 samples
+Training acc over epoch: 0.9086
+Training loss (for one batch) at step 311: 0.1999
+Seen so far: 19968 samples
+Training acc over epoch: 0.9087
+Training loss (for one batch) at step 312: 0.2860
+Seen so far: 20032 samples
+Training acc over epoch: 0.9086
+Testing Accuracy: 87.44%
+
+Start of epoch 3
+Training loss (for one batch) at step 0: 0.1438
+Seen so far: 64 samples
+Training acc over epoch: 0.9844
+Training loss (for one batch) at step 1: 0.1684
+Seen so far: 128 samples
+Training acc over epoch: 0.9609
+Training loss (for one batch) at step 2: 0.1100
+Seen so far: 192 samples
+Training acc over epoch: 0.9635
+Training loss (for one batch) at step 3: 0.2314
+Seen so far: 256 samples
+Training acc over epoch: 0.9492
+Training loss (for one batch) at step 4: 0.0981
+Seen so far: 320 samples
+Training acc over epoch: 0.9500
+Training loss (for one batch) at step 5: 0.1710
+Seen so far: 384 samples
+Training acc over epoch: 0.9479
+Training loss (for one batch) at step 6: 0.3664
+Seen so far: 448 samples
+Training acc over epoch: 0.9330
+Training loss (for one batch) at step 7: 0.1725
+Seen so far: 512 samples
+Training acc over epoch: 0.9355
+Training loss (for one batch) at step 8: 0.1402
+Seen so far: 576 samples
+Training acc over epoch: 0.9392
+Training loss (for one batch) at step 9: 0.1304
+Seen so far: 640 samples
+Training acc over epoch: 0.9422
+Training loss (for one batch) at step 10: 0.1985
+Seen so far: 704 samples
+Training acc over epoch: 0.9418
+Training loss (for one batch) at step 11: 0.2963
+Seen so far: 768 samples
+Training acc over epoch: 0.9388
+Training loss (for one batch) at step 12: 0.1721
+Seen so far: 832 samples
+Training acc over epoch: 0.9387
+Training loss (for one batch) at step 13: 0.1923
+Seen so far: 896 samples
+Training acc over epoch: 0.9375
+Training loss (for one batch) at step 14: 0.2276
+Seen so far: 960 samples
+Training acc over epoch: 0.9354
+Training loss (for one batch) at step 15: 0.1327
+Seen so far: 1024 samples
+Training acc over epoch: 0.9365
+Training loss (for one batch) at step 16: 0.1845
+Seen so far: 1088 samples
+Training acc over epoch: 0.9357
+Training loss (for one batch) at step 17: 0.2547
+Seen so far: 1152 samples
+Training acc over epoch: 0.9349
+Training loss (for one batch) at step 18: 0.2758
+Seen so far: 1216 samples
+Training acc over epoch: 0.9301
+Training loss (for one batch) at step 19: 0.1323
+Seen so far: 1280 samples
+Training acc over epoch: 0.9328
+Training loss (for one batch) at step 20: 0.1118
+Seen so far: 1344 samples
+Training acc over epoch: 0.9345
+Training loss (for one batch) at step 21: 0.1976
+Seen so far: 1408 samples
+Training acc over epoch: 0.9347
+Training loss (for one batch) at step 22: 0.1653
+Seen so far: 1472 samples
+Training acc over epoch: 0.9361
+Training loss (for one batch) at step 23: 0.1749
+Seen so far: 1536 samples
+Training acc over epoch: 0.9355
+Training loss (for one batch) at step 24: 0.4303
+Seen so far: 1600 samples
+Training acc over epoch: 0.9306
+Training loss (for one batch) at step 25: 0.1173
+Seen so far: 1664 samples
+Training acc over epoch: 0.9321
+Training loss (for one batch) at step 26: 0.3044
+Seen so far: 1728 samples
+Training acc over epoch: 0.9311
+Training loss (for one batch) at step 27: 0.0891
+Seen so far: 1792 samples
+Training acc over epoch: 0.9336
+Training loss (for one batch) at step 28: 0.1085
+Seen so far: 1856 samples
+Training acc over epoch: 0.9348
+Training loss (for one batch) at step 29: 0.1589
+Seen so far: 1920 samples
+Training acc over epoch: 0.9349
+Training loss (for one batch) at step 30: 0.2208
+Seen so far: 1984 samples
+Training acc over epoch: 0.9340
+Validation acc: 0.8673
+Time taken: 41.21s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 31: 0.3996
+Seen so far: 2048 samples
+Training acc over epoch: 0.9331
+Training loss (for one batch) at step 32: 0.3180
+Seen so far: 2112 samples
+Training acc over epoch: 0.9313
+Training loss (for one batch) at step 33: 0.2451
+Seen so far: 2176 samples
+Training acc over epoch: 0.9311
+Training loss (for one batch) at step 34: 0.2403
+Seen so far: 2240 samples
+Training acc over epoch: 0.9308
+Training loss (for one batch) at step 35: 0.2206
+Seen so far: 2304 samples
+Training acc over epoch: 0.9314
+Training loss (for one batch) at step 36: 0.2760
+Seen so far: 2368 samples
+Training acc over epoch: 0.9312
+Training loss (for one batch) at step 37: 0.2012
+Seen so far: 2432 samples
+Training acc over epoch: 0.9313
+Training loss (for one batch) at step 38: 0.2835
+Seen so far: 2496 samples
+Training acc over epoch: 0.9295
+Training loss (for one batch) at step 39: 0.2371
+Seen so far: 2560 samples
+Training acc over epoch: 0.9293
+Training loss (for one batch) at step 40: 0.2694
+Seen so far: 2624 samples
+Training acc over epoch: 0.9287
+Training loss (for one batch) at step 41: 0.2253
+Seen so far: 2688 samples
+Training acc over epoch: 0.9282
+Training loss (for one batch) at step 42: 0.2343
+Seen so far: 2752 samples
+Training acc over epoch: 0.9273
+Training loss (for one batch) at step 43: 0.2907
+Seen so far: 2816 samples
+Training acc over epoch: 0.9268
+Training loss (for one batch) at step 44: 0.2425
+Seen so far: 2880 samples
+Training acc over epoch: 0.9267
+Training loss (for one batch) at step 45: 0.2119
+Seen so far: 2944 samples
+Training acc over epoch: 0.9266
+Training loss (for one batch) at step 46: 0.3930
+Seen so far: 3008 samples
+Training acc over epoch: 0.9245
+Training loss (for one batch) at step 47: 0.2006
+Seen so far: 3072 samples
+Training acc over epoch: 0.9242
+Training loss (for one batch) at step 48: 0.2277
+Seen so far: 3136 samples
+Training acc over epoch: 0.9235
+Training loss (for one batch) at step 49: 0.1998
+Seen so far: 3200 samples
+Training acc over epoch: 0.9237
+Training loss (for one batch) at step 50: 0.1930
+Seen so far: 3264 samples
+Training acc over epoch: 0.9237
+Training loss (for one batch) at step 51: 0.1507
+Seen so far: 3328 samples
+Training acc over epoch: 0.9246
+Training loss (for one batch) at step 52: 0.1357
+Seen so far: 3392 samples
+Training acc over epoch: 0.9257
+Training loss (for one batch) at step 53: 0.3582
+Seen so far: 3456 samples
+Training acc over epoch: 0.9248
+Training loss (for one batch) at step 54: 0.2021
+Seen so far: 3520 samples
+Training acc over epoch: 0.9241
+Training loss (for one batch) at step 55: 0.2024
+Seen so far: 3584 samples
+Training acc over epoch: 0.9244
+Training loss (for one batch) at step 56: 0.2021
+Seen so far: 3648 samples
+Training acc over epoch: 0.9249
+Training loss (for one batch) at step 57: 0.2093
+Seen so far: 3712 samples
+Training acc over epoch: 0.9248
+Training loss (for one batch) at step 58: 0.3057
+Seen so far: 3776 samples
+Training acc over epoch: 0.9248
+Training loss (for one batch) at step 59: 0.2243
+Seen so far: 3840 samples
+Training acc over epoch: 0.9245
+Training loss (for one batch) at step 60: 0.3613
+Seen so far: 3904 samples
+Training acc over epoch: 0.9232
+Validation acc: 0.8459
+Time taken: 163.34s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 61: 0.3747
+Seen so far: 3968 samples
+Training acc over epoch: 0.9209
+Training loss (for one batch) at step 62: 0.1825
+Seen so far: 4032 samples
+Training acc over epoch: 0.9211
+Training loss (for one batch) at step 63: 0.3236
+Seen so far: 4096 samples
+Training acc over epoch: 0.9207
+Training loss (for one batch) at step 64: 0.2698
+Seen so far: 4160 samples
+Training acc over epoch: 0.9204
+Training loss (for one batch) at step 65: 0.2484
+Seen so far: 4224 samples
+Training acc over epoch: 0.9200
+Training loss (for one batch) at step 66: 0.1859
+Seen so far: 4288 samples
+Training acc over epoch: 0.9202
+Training loss (for one batch) at step 67: 0.2879
+Seen so far: 4352 samples
+Training acc over epoch: 0.9200
+Training loss (for one batch) at step 68: 0.4045
+Seen so far: 4416 samples
+Training acc over epoch: 0.9189
+Training loss (for one batch) at step 69: 0.2206
+Seen so far: 4480 samples
+Training acc over epoch: 0.9192
+Training loss (for one batch) at step 70: 0.2996
+Seen so far: 4544 samples
+Training acc over epoch: 0.9186
+Training loss (for one batch) at step 71: 0.2237
+Seen so far: 4608 samples
+Training acc over epoch: 0.9186
+Training loss (for one batch) at step 72: 0.2907
+Seen so far: 4672 samples
+Training acc over epoch: 0.9180
+Training loss (for one batch) at step 73: 0.2293
+Seen so far: 4736 samples
+Training acc over epoch: 0.9177
+Training loss (for one batch) at step 74: 0.2884
+Seen so far: 4800 samples
+Training acc over epoch: 0.9171
+Training loss (for one batch) at step 75: 0.1958
+Seen so far: 4864 samples
+Training acc over epoch: 0.9171
+Training loss (for one batch) at step 76: 0.3915
+Seen so far: 4928 samples
+Training acc over epoch: 0.9166
+Training loss (for one batch) at step 77: 0.1698
+Seen so far: 4992 samples
+Training acc over epoch: 0.9171
+Training loss (for one batch) at step 78: 0.1943
+Seen so far: 5056 samples
+Training acc over epoch: 0.9171
+Training loss (for one batch) at step 79: 0.2712
+Seen so far: 5120 samples
+Training acc over epoch: 0.9170
+Training loss (for one batch) at step 80: 0.1143
+Seen so far: 5184 samples
+Training acc over epoch: 0.9178
+Training loss (for one batch) at step 81: 0.1477
+Seen so far: 5248 samples
+Training acc over epoch: 0.9184
+Training loss (for one batch) at step 82: 0.2830
+Seen so far: 5312 samples
+Training acc over epoch: 0.9181
+Training loss (for one batch) at step 83: 0.1785
+Seen so far: 5376 samples
+Training acc over epoch: 0.9183
+Training loss (for one batch) at step 84: 0.1776
+Seen so far: 5440 samples
+Training acc over epoch: 0.9187
+Training loss (for one batch) at step 85: 0.2590
+Seen so far: 5504 samples
+Training acc over epoch: 0.9186
+Training loss (for one batch) at step 86: 0.1570
+Seen so far: 5568 samples
+Training acc over epoch: 0.9188
+Training loss (for one batch) at step 87: 0.2808
+Seen so far: 5632 samples
+Training acc over epoch: 0.9189
+Training loss (for one batch) at step 88: 0.2322
+Seen so far: 5696 samples
+Training acc over epoch: 0.9189
+Training loss (for one batch) at step 89: 0.1869
+Seen so far: 5760 samples
+Training acc over epoch: 0.9186
+Training loss (for one batch) at step 90: 0.1633
+Seen so far: 5824 samples
+Training acc over epoch: 0.9190
+Validation acc: 0.8705
+Time taken: 284.83s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 91: 0.1848
+Seen so far: 5888 samples
+Training acc over epoch: 0.9190
+Training loss (for one batch) at step 92: 0.1359
+Seen so far: 5952 samples
+Training acc over epoch: 0.9197
+Training loss (for one batch) at step 93: 0.2828
+Seen so far: 6016 samples
+Training acc over epoch: 0.9195
+Training loss (for one batch) at step 94: 0.3699
+Seen so far: 6080 samples
+Training acc over epoch: 0.9189
+Training loss (for one batch) at step 95: 0.3012
+Seen so far: 6144 samples
+Training acc over epoch: 0.9186
+Training loss (for one batch) at step 96: 0.2920
+Seen so far: 6208 samples
+Training acc over epoch: 0.9188
+Training loss (for one batch) at step 97: 0.1686
+Seen so far: 6272 samples
+Training acc over epoch: 0.9192
+Training loss (for one batch) at step 98: 0.2014
+Seen so far: 6336 samples
+Training acc over epoch: 0.9192
+Training loss (for one batch) at step 99: 0.2340
+Seen so far: 6400 samples
+Training acc over epoch: 0.9192
+Training loss (for one batch) at step 100: 0.1445
+Seen so far: 6464 samples
+Training acc over epoch: 0.9197
+Training loss (for one batch) at step 101: 0.2445
+Seen so far: 6528 samples
+Training acc over epoch: 0.9196
+Training loss (for one batch) at step 102: 0.1726
+Seen so far: 6592 samples
+Training acc over epoch: 0.9199
+Training loss (for one batch) at step 103: 0.2991
+Seen so far: 6656 samples
+Training acc over epoch: 0.9192
+Training loss (for one batch) at step 104: 0.2433
+Seen so far: 6720 samples
+Training acc over epoch: 0.9189
+Training loss (for one batch) at step 105: 0.2109
+Seen so far: 6784 samples
+Training acc over epoch: 0.9189
+Training loss (for one batch) at step 106: 0.2664
+Seen so far: 6848 samples
+Training acc over epoch: 0.9182
+Training loss (for one batch) at step 107: 0.2249
+Seen so far: 6912 samples
+Training acc over epoch: 0.9183
+Training loss (for one batch) at step 108: 0.1893
+Seen so far: 6976 samples
+Training acc over epoch: 0.9183
+Training loss (for one batch) at step 109: 0.1574
+Seen so far: 7040 samples
+Training acc over epoch: 0.9189
+Training loss (for one batch) at step 110: 0.3215
+Seen so far: 7104 samples
+Training acc over epoch: 0.9185
+Training loss (for one batch) at step 111: 0.1843
+Seen so far: 7168 samples
+Training acc over epoch: 0.9188
+Training loss (for one batch) at step 112: 0.2171
+Seen so far: 7232 samples
+Training acc over epoch: 0.9184
+Training loss (for one batch) at step 113: 0.2909
+Seen so far: 7296 samples
+Training acc over epoch: 0.9180
+Training loss (for one batch) at step 114: 0.2585
+Seen so far: 7360 samples
+Training acc over epoch: 0.9181
+Training loss (for one batch) at step 115: 0.2137
+Seen so far: 7424 samples
+Training acc over epoch: 0.9181
+Training loss (for one batch) at step 116: 0.1983
+Seen so far: 7488 samples
+Training acc over epoch: 0.9183
+Training loss (for one batch) at step 117: 0.2320
+Seen so far: 7552 samples
+Training acc over epoch: 0.9180
+Training loss (for one batch) at step 118: 0.1716
+Seen so far: 7616 samples
+Training acc over epoch: 0.9179
+Training loss (for one batch) at step 119: 0.2111
+Seen so far: 7680 samples
+Training acc over epoch: 0.9181
+Training loss (for one batch) at step 120: 0.1303
+Seen so far: 7744 samples
+Training acc over epoch: 0.9185
+Validation acc: 0.8726
+Time taken: 405.95s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 121: 0.2408
+Seen so far: 7808 samples
+Training acc over epoch: 0.9185
+Training loss (for one batch) at step 122: 0.1154
+Seen so far: 7872 samples
+Training acc over epoch: 0.9191
+Training loss (for one batch) at step 123: 0.1708
+Seen so far: 7936 samples
+Training acc over epoch: 0.9192
+Training loss (for one batch) at step 124: 0.1796
+Seen so far: 8000 samples
+Training acc over epoch: 0.9196
+Training loss (for one batch) at step 125: 0.1822
+Seen so far: 8064 samples
+Training acc over epoch: 0.9198
+Training loss (for one batch) at step 126: 0.2167
+Seen so far: 8128 samples
+Training acc over epoch: 0.9197
+Training loss (for one batch) at step 127: 0.2269
+Seen so far: 8192 samples
+Training acc over epoch: 0.9196
+Training loss (for one batch) at step 128: 0.3160
+Seen so far: 8256 samples
+Training acc over epoch: 0.9188
+Training loss (for one batch) at step 129: 0.2991
+Seen so far: 8320 samples
+Training acc over epoch: 0.9186
+Training loss (for one batch) at step 130: 0.1386
+Seen so far: 8384 samples
+Training acc over epoch: 0.9190
+Training loss (for one batch) at step 131: 0.1871
+Seen so far: 8448 samples
+Training acc over epoch: 0.9194
+Training loss (for one batch) at step 132: 0.2038
+Seen so far: 8512 samples
+Training acc over epoch: 0.9195
+Training loss (for one batch) at step 133: 0.3034
+Seen so far: 8576 samples
+Training acc over epoch: 0.9192
+Training loss (for one batch) at step 134: 0.1800
+Seen so far: 8640 samples
+Training acc over epoch: 0.9192
+Training loss (for one batch) at step 135: 0.1721
+Seen so far: 8704 samples
+Training acc over epoch: 0.9193
+Training loss (for one batch) at step 136: 0.1579
+Seen so far: 8768 samples
+Training acc over epoch: 0.9195
+Training loss (for one batch) at step 137: 0.1591
+Seen so far: 8832 samples
+Training acc over epoch: 0.9196
+Training loss (for one batch) at step 138: 0.2471
+Seen so far: 8896 samples
+Training acc over epoch: 0.9197
+Training loss (for one batch) at step 139: 0.1723
+Seen so far: 8960 samples
+Training acc over epoch: 0.9199
+Training loss (for one batch) at step 140: 0.1771
+Seen so far: 9024 samples
+Training acc over epoch: 0.9199
+Training loss (for one batch) at step 141: 0.1829
+Seen so far: 9088 samples
+Training acc over epoch: 0.9200
+Training loss (for one batch) at step 142: 0.2668
+Seen so far: 9152 samples
+Training acc over epoch: 0.9199
+Training loss (for one batch) at step 143: 0.2797
+Seen so far: 9216 samples
+Training acc over epoch: 0.9197
+Training loss (for one batch) at step 144: 0.2534
+Seen so far: 9280 samples
+Training acc over epoch: 0.9196
+Training loss (for one batch) at step 145: 0.1972
+Seen so far: 9344 samples
+Training acc over epoch: 0.9197
+Training loss (for one batch) at step 146: 0.2273
+Seen so far: 9408 samples
+Training acc over epoch: 0.9197
+Training loss (for one batch) at step 147: 0.2040
+Seen so far: 9472 samples
+Training acc over epoch: 0.9200
+Training loss (for one batch) at step 148: 0.2127
+Seen so far: 9536 samples
+Training acc over epoch: 0.9198
+Training loss (for one batch) at step 149: 0.1723
+Seen so far: 9600 samples
+Training acc over epoch: 0.9200
+Training loss (for one batch) at step 150: 0.1815
+Seen so far: 9664 samples
+Training acc over epoch: 0.9202
+Validation acc: 0.8795
+Time taken: 526.81s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Testing Accuracy: 86.99%
+Training loss (for one batch) at step 151: 0.2009
+Seen so far: 9728 samples
+Training acc over epoch: 0.9204
+Training loss (for one batch) at step 152: 0.2633
+Seen so far: 9792 samples
+Training acc over epoch: 0.9202
+Training loss (for one batch) at step 153: 0.2453
+Seen so far: 9856 samples
+Training acc over epoch: 0.9203
+Training loss (for one batch) at step 154: 0.1702
+Seen so far: 9920 samples
+Training acc over epoch: 0.9205
+Training loss (for one batch) at step 155: 0.1757
+Seen so far: 9984 samples
+Training acc over epoch: 0.9207
+Training loss (for one batch) at step 156: 0.1032
+Seen so far: 10048 samples
+Training acc over epoch: 0.9212
+Training loss (for one batch) at step 157: 0.2003
+Seen so far: 10112 samples
+Training acc over epoch: 0.9212
+Training loss (for one batch) at step 158: 0.2358
+Seen so far: 10176 samples
+Training acc over epoch: 0.9210
+Training loss (for one batch) at step 159: 0.1508
+Seen so far: 10240 samples
+Training acc over epoch: 0.9212
+Training loss (for one batch) at step 160: 0.1694
+Seen so far: 10304 samples
+Training acc over epoch: 0.9214
+Training loss (for one batch) at step 161: 0.2054
+Seen so far: 10368 samples
+Training acc over epoch: 0.9216
+Training loss (for one batch) at step 162: 0.2238
+Seen so far: 10432 samples
+Training acc over epoch: 0.9216
+Training loss (for one batch) at step 163: 0.1198
+Seen so far: 10496 samples
+Training acc over epoch: 0.9218
+Training loss (for one batch) at step 164: 0.1491
+Seen so far: 10560 samples
+Training acc over epoch: 0.9222
+Training loss (for one batch) at step 165: 0.1694
+Seen so far: 10624 samples
+Training acc over epoch: 0.9222
+Training loss (for one batch) at step 166: 0.3192
+Seen so far: 10688 samples
+Training acc over epoch: 0.9221
+Training loss (for one batch) at step 167: 0.2616
+Seen so far: 10752 samples
+Training acc over epoch: 0.9220
+Training loss (for one batch) at step 168: 0.2652
+Seen so far: 10816 samples
+Training acc over epoch: 0.9218
+Training loss (for one batch) at step 169: 0.1672
+Seen so far: 10880 samples
+Training acc over epoch: 0.9220
+Training loss (for one batch) at step 170: 0.3180
+Seen so far: 10944 samples
+Training acc over epoch: 0.9215
+Training loss (for one batch) at step 171: 0.2700
+Seen so far: 11008 samples
+Training acc over epoch: 0.9214
+Training loss (for one batch) at step 172: 0.1557
+Seen so far: 11072 samples
+Training acc over epoch: 0.9216
+Training loss (for one batch) at step 173: 0.1830
+Seen so far: 11136 samples
+Training acc over epoch: 0.9218
+Training loss (for one batch) at step 174: 0.1718
+Seen so far: 11200 samples
+Training acc over epoch: 0.9221
+Training loss (for one batch) at step 175: 0.1489
+Seen so far: 11264 samples
+Training acc over epoch: 0.9222
+Training loss (for one batch) at step 176: 0.1908
+Seen so far: 11328 samples
+Training acc over epoch: 0.9225
+Training loss (for one batch) at step 177: 0.1570
+Seen so far: 11392 samples
+Training acc over epoch: 0.9228
+Training loss (for one batch) at step 178: 0.4316
+Seen so far: 11456 samples
+Training acc over epoch: 0.9222
+Training loss (for one batch) at step 179: 0.2895
+Seen so far: 11520 samples
+Training acc over epoch: 0.9220
+Training loss (for one batch) at step 180: 0.1780
+Seen so far: 11584 samples
+Training acc over epoch: 0.9221
+Validation acc: 0.8752
+Time taken: 697.02s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 181: 0.1379
+Seen so far: 11648 samples
+Training acc over epoch: 0.9224
+Training loss (for one batch) at step 182: 0.2228
+Seen so far: 11712 samples
+Training acc over epoch: 0.9223
+Training loss (for one batch) at step 183: 0.2343
+Seen so far: 11776 samples
+Training acc over epoch: 0.9222
+Training loss (for one batch) at step 184: 0.2759
+Seen so far: 11840 samples
+Training acc over epoch: 0.9220
+Training loss (for one batch) at step 185: 0.2814
+Seen so far: 11904 samples
+Training acc over epoch: 0.9219
+Training loss (for one batch) at step 186: 0.2191
+Seen so far: 11968 samples
+Training acc over epoch: 0.9219
+Training loss (for one batch) at step 187: 0.1608
+Seen so far: 12032 samples
+Training acc over epoch: 0.9220
+Training loss (for one batch) at step 188: 0.2219
+Seen so far: 12096 samples
+Training acc over epoch: 0.9220
+Training loss (for one batch) at step 189: 0.1296
+Seen so far: 12160 samples
+Training acc over epoch: 0.9223
+Training loss (for one batch) at step 190: 0.2505
+Seen so far: 12224 samples
+Training acc over epoch: 0.9220
+Training loss (for one batch) at step 191: 0.1678
+Seen so far: 12288 samples
+Training acc over epoch: 0.9222
+Training loss (for one batch) at step 192: 0.2597
+Seen so far: 12352 samples
+Training acc over epoch: 0.9222
+Training loss (for one batch) at step 193: 0.2914
+Seen so far: 12416 samples
+Training acc over epoch: 0.9220
+Training loss (for one batch) at step 194: 0.2605
+Seen so far: 12480 samples
+Training acc over epoch: 0.9220
+Training loss (for one batch) at step 195: 0.2126
+Seen so far: 12544 samples
+Training acc over epoch: 0.9220
+Training loss (for one batch) at step 196: 0.2731
+Seen so far: 12608 samples
+Training acc over epoch: 0.9218
+Training loss (for one batch) at step 197: 0.2740
+Seen so far: 12672 samples
+Training acc over epoch: 0.9215
+Training loss (for one batch) at step 198: 0.2876
+Seen so far: 12736 samples
+Training acc over epoch: 0.9212
+Training loss (for one batch) at step 199: 0.2578
+Seen so far: 12800 samples
+Training acc over epoch: 0.9210
+Training loss (for one batch) at step 200: 0.3367
+Seen so far: 12864 samples
+Training acc over epoch: 0.9206
+Training loss (for one batch) at step 201: 0.1755
+Seen so far: 12928 samples
+Training acc over epoch: 0.9207
+Training loss (for one batch) at step 202: 0.3003
+Seen so far: 12992 samples
+Training acc over epoch: 0.9206
+Training loss (for one batch) at step 203: 0.2484
+Seen so far: 13056 samples
+Training acc over epoch: 0.9204
+Training loss (for one batch) at step 204: 0.1715
+Seen so far: 13120 samples
+Training acc over epoch: 0.9207
+Training loss (for one batch) at step 205: 0.2737
+Seen so far: 13184 samples
+Training acc over epoch: 0.9202
+Training loss (for one batch) at step 206: 0.2609
+Seen so far: 13248 samples
+Training acc over epoch: 0.9200
+Training loss (for one batch) at step 207: 0.2144
+Seen so far: 13312 samples
+Training acc over epoch: 0.9200
+Training loss (for one batch) at step 208: 0.1814
+Seen so far: 13376 samples
+Training acc over epoch: 0.9200
+Training loss (for one batch) at step 209: 0.2132
+Seen so far: 13440 samples
+Training acc over epoch: 0.9202
+Training loss (for one batch) at step 210: 0.3150
+Seen so far: 13504 samples
+Training acc over epoch: 0.9199
+Validation acc: 0.8572
+Time taken: 819.17s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 211: 0.2605
+Seen so far: 13568 samples
+Training acc over epoch: 0.9200
+Training loss (for one batch) at step 212: 0.2262
+Seen so far: 13632 samples
+Training acc over epoch: 0.9201
+Training loss (for one batch) at step 213: 0.2540
+Seen so far: 13696 samples
+Training acc over epoch: 0.9200
+Training loss (for one batch) at step 214: 0.2592
+Seen so far: 13760 samples
+Training acc over epoch: 0.9200
+Training loss (for one batch) at step 215: 0.2778
+Seen so far: 13824 samples
+Training acc over epoch: 0.9198
+Training loss (for one batch) at step 216: 0.2679
+Seen so far: 13888 samples
+Training acc over epoch: 0.9196
+Training loss (for one batch) at step 217: 0.1905
+Seen so far: 13952 samples
+Training acc over epoch: 0.9197
+Training loss (for one batch) at step 218: 0.2265
+Seen so far: 14016 samples
+Training acc over epoch: 0.9197
+Training loss (for one batch) at step 219: 0.1874
+Seen so far: 14080 samples
+Training acc over epoch: 0.9198
+Training loss (for one batch) at step 220: 0.2210
+Seen so far: 14144 samples
+Training acc over epoch: 0.9199
+Training loss (for one batch) at step 221: 0.2740
+Seen so far: 14208 samples
+Training acc over epoch: 0.9198
+Training loss (for one batch) at step 222: 0.3111
+Seen so far: 14272 samples
+Training acc over epoch: 0.9196
+Training loss (for one batch) at step 223: 0.2914
+Seen so far: 14336 samples
+Training acc over epoch: 0.9196
+Training loss (for one batch) at step 224: 0.2309
+Seen so far: 14400 samples
+Training acc over epoch: 0.9196
+Training loss (for one batch) at step 225: 0.2207
+Seen so far: 14464 samples
+Training acc over epoch: 0.9196
+Training loss (for one batch) at step 226: 0.2034
+Seen so far: 14528 samples
+Training acc over epoch: 0.9197
+Training loss (for one batch) at step 227: 0.2359
+Seen so far: 14592 samples
+Training acc over epoch: 0.9198
+Training loss (for one batch) at step 228: 0.1691
+Seen so far: 14656 samples
+Training acc over epoch: 0.9200
+Training loss (for one batch) at step 229: 0.2308
+Seen so far: 14720 samples
+Training acc over epoch: 0.9200
+Training loss (for one batch) at step 230: 0.2179
+Seen so far: 14784 samples
+Training acc over epoch: 0.9201
+Training loss (for one batch) at step 231: 0.2404
+Seen so far: 14848 samples
+Training acc over epoch: 0.9201
+Training loss (for one batch) at step 232: 0.2292
+Seen so far: 14912 samples
+Training acc over epoch: 0.9200
+Training loss (for one batch) at step 233: 0.1819
+Seen so far: 14976 samples
+Training acc over epoch: 0.9201
+Training loss (for one batch) at step 234: 0.2199
+Seen so far: 15040 samples
+Training acc over epoch: 0.9201
+Training loss (for one batch) at step 235: 0.2382
+Seen so far: 15104 samples
+Training acc over epoch: 0.9201
+Training loss (for one batch) at step 236: 0.2386
+Seen so far: 15168 samples
+Training acc over epoch: 0.9200
+Training loss (for one batch) at step 237: 0.1922
+Seen so far: 15232 samples
+Training acc over epoch: 0.9201
+Training loss (for one batch) at step 238: 0.1826
+Seen so far: 15296 samples
+Training acc over epoch: 0.9202
+Training loss (for one batch) at step 239: 0.1673
+Seen so far: 15360 samples
+Training acc over epoch: 0.9204
+Training loss (for one batch) at step 240: 0.2095
+Seen so far: 15424 samples
+Training acc over epoch: 0.9204
+Validation acc: 0.8784
+Time taken: 941.85s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 241: 0.2240
+Seen so far: 15488 samples
+Training acc over epoch: 0.9205
+Training loss (for one batch) at step 242: 0.3010
+Seen so far: 15552 samples
+Training acc over epoch: 0.9202
+Training loss (for one batch) at step 243: 0.2317
+Seen so far: 15616 samples
+Training acc over epoch: 0.9202
+Training loss (for one batch) at step 244: 0.2881
+Seen so far: 15680 samples
+Training acc over epoch: 0.9200
+Training loss (for one batch) at step 245: 0.2223
+Seen so far: 15744 samples
+Training acc over epoch: 0.9200
+Training loss (for one batch) at step 246: 0.2196
+Seen so far: 15808 samples
+Training acc over epoch: 0.9201
+Training loss (for one batch) at step 247: 0.1523
+Seen so far: 15872 samples
+Training acc over epoch: 0.9204
+Training loss (for one batch) at step 248: 0.2423
+Seen so far: 15936 samples
+Training acc over epoch: 0.9205
+Training loss (for one batch) at step 249: 0.2040
+Seen so far: 16000 samples
+Training acc over epoch: 0.9206
+Training loss (for one batch) at step 250: 0.2190
+Seen so far: 16064 samples
+Training acc over epoch: 0.9205
+Training loss (for one batch) at step 251: 0.1520
+Seen so far: 16128 samples
+Training acc over epoch: 0.9207
+Training loss (for one batch) at step 252: 0.1585
+Seen so far: 16192 samples
+Training acc over epoch: 0.9208
+Training loss (for one batch) at step 253: 0.1851
+Seen so far: 16256 samples
+Training acc over epoch: 0.9208
+Training loss (for one batch) at step 254: 0.1902
+Seen so far: 16320 samples
+Training acc over epoch: 0.9209
+Training loss (for one batch) at step 255: 0.2212
+Seen so far: 16384 samples
+Training acc over epoch: 0.9211
+Training loss (for one batch) at step 256: 0.2638
+Seen so far: 16448 samples
+Training acc over epoch: 0.9210
+Training loss (for one batch) at step 257: 0.2766
+Seen so far: 16512 samples
+Training acc over epoch: 0.9210
+Training loss (for one batch) at step 258: 0.1503
+Seen so far: 16576 samples
+Training acc over epoch: 0.9212
+Training loss (for one batch) at step 259: 0.2228
+Seen so far: 16640 samples
+Training acc over epoch: 0.9212
+Training loss (for one batch) at step 260: 0.1946
+Seen so far: 16704 samples
+Training acc over epoch: 0.9213
+Training loss (for one batch) at step 261: 0.2079
+Seen so far: 16768 samples
+Training acc over epoch: 0.9213
+Training loss (for one batch) at step 262: 0.2524
+Seen so far: 16832 samples
+Training acc over epoch: 0.9213
+Training loss (for one batch) at step 263: 0.2009
+Seen so far: 16896 samples
+Training acc over epoch: 0.9213
+Training loss (for one batch) at step 264: 0.2127
+Seen so far: 16960 samples
+Training acc over epoch: 0.9213
+Training loss (for one batch) at step 265: 0.3489
+Seen so far: 17024 samples
+Training acc over epoch: 0.9212
+Training loss (for one batch) at step 266: 0.2314
+Seen so far: 17088 samples
+Training acc over epoch: 0.9212
+Training loss (for one batch) at step 267: 0.2191
+Seen so far: 17152 samples
+Training acc over epoch: 0.9212
+Training loss (for one batch) at step 268: 0.2622
+Seen so far: 17216 samples
+Training acc over epoch: 0.9211
+Training loss (for one batch) at step 269: 0.1091
+Seen so far: 17280 samples
+Training acc over epoch: 0.9214
+Training loss (for one batch) at step 270: 0.2438
+Seen so far: 17344 samples
+Training acc over epoch: 0.9213
+Validation acc: 0.8782
+Time taken: 1063.48s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 271: 0.1506
+Seen so far: 17408 samples
+Training acc over epoch: 0.9215
+Training loss (for one batch) at step 272: 0.2125
+Seen so far: 17472 samples
+Training acc over epoch: 0.9214
+Training loss (for one batch) at step 273: 0.1888
+Seen so far: 17536 samples
+Training acc over epoch: 0.9215
+Training loss (for one batch) at step 274: 0.2517
+Seen so far: 17600 samples
+Training acc over epoch: 0.9214
+Training loss (for one batch) at step 275: 0.2587
+Seen so far: 17664 samples
+Training acc over epoch: 0.9213
+Training loss (for one batch) at step 276: 0.2031
+Seen so far: 17728 samples
+Training acc over epoch: 0.9213
+Training loss (for one batch) at step 277: 0.3190
+Seen so far: 17792 samples
+Training acc over epoch: 0.9211
+Training loss (for one batch) at step 278: 0.3167
+Seen so far: 17856 samples
+Training acc over epoch: 0.9210
+Training loss (for one batch) at step 279: 0.1642
+Seen so far: 17920 samples
+Training acc over epoch: 0.9210
+Training loss (for one batch) at step 280: 0.2013
+Seen so far: 17984 samples
+Training acc over epoch: 0.9211
+Training loss (for one batch) at step 281: 0.2701
+Seen so far: 18048 samples
+Training acc over epoch: 0.9210
+Training loss (for one batch) at step 282: 0.2037
+Seen so far: 18112 samples
+Training acc over epoch: 0.9211
+Training loss (for one batch) at step 283: 0.2333
+Seen so far: 18176 samples
+Training acc over epoch: 0.9213
+Training loss (for one batch) at step 284: 0.2460
+Seen so far: 18240 samples
+Training acc over epoch: 0.9214
+Training loss (for one batch) at step 285: 0.2925
+Seen so far: 18304 samples
+Training acc over epoch: 0.9212
+Training loss (for one batch) at step 286: 0.2688
+Seen so far: 18368 samples
+Training acc over epoch: 0.9212
+Training loss (for one batch) at step 287: 0.3993
+Seen so far: 18432 samples
+Training acc over epoch: 0.9208
+Training loss (for one batch) at step 288: 0.3256
+Seen so far: 18496 samples
+Training acc over epoch: 0.9206
+Training loss (for one batch) at step 289: 0.2625
+Seen so far: 18560 samples
+Training acc over epoch: 0.9205
+Training loss (for one batch) at step 290: 0.2741
+Seen so far: 18624 samples
+Training acc over epoch: 0.9205
+Training loss (for one batch) at step 291: 0.2117
+Seen so far: 18688 samples
+Training acc over epoch: 0.9206
+Training loss (for one batch) at step 292: 0.2170
+Seen so far: 18752 samples
+Training acc over epoch: 0.9208
+Training loss (for one batch) at step 293: 0.2336
+Seen so far: 18816 samples
+Training acc over epoch: 0.9208
+Training loss (for one batch) at step 294: 0.2277
+Seen so far: 18880 samples
+Training acc over epoch: 0.9208
+Training loss (for one batch) at step 295: 0.2332
+Seen so far: 18944 samples
+Training acc over epoch: 0.9208
+Training loss (for one batch) at step 296: 0.2771
+Seen so far: 19008 samples
+Training acc over epoch: 0.9207
+Training loss (for one batch) at step 297: 0.2155
+Seen so far: 19072 samples
+Training acc over epoch: 0.9207
+Training loss (for one batch) at step 298: 0.2535
+Seen so far: 19136 samples
+Training acc over epoch: 0.9207
+Training loss (for one batch) at step 299: 0.3250
+Seen so far: 19200 samples
+Training acc over epoch: 0.9206
+Training loss (for one batch) at step 300: 0.4404
+Seen so far: 19264 samples
+Training acc over epoch: 0.9203
+Validation acc: 0.8633
+Time taken: 1185.63s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 301: 0.2197
+Seen so far: 19328 samples
+Training acc over epoch: 0.9203
+Training loss (for one batch) at step 302: 0.2047
+Seen so far: 19392 samples
+Training acc over epoch: 0.9202
+Training loss (for one batch) at step 303: 0.2159
+Seen so far: 19456 samples
+Training acc over epoch: 0.9202
+Training loss (for one batch) at step 304: 0.2537
+Seen so far: 19520 samples
+Training acc over epoch: 0.9202
+Training loss (for one batch) at step 305: 0.2019
+Seen so far: 19584 samples
+Training acc over epoch: 0.9203
+Training loss (for one batch) at step 306: 0.2759
+Seen so far: 19648 samples
+Training acc over epoch: 0.9202
+Training loss (for one batch) at step 307: 0.2188
+Seen so far: 19712 samples
+Training acc over epoch: 0.9203
+Training loss (for one batch) at step 308: 0.2149
+Seen so far: 19776 samples
+Training acc over epoch: 0.9203
+Training loss (for one batch) at step 309: 0.1898
+Seen so far: 19840 samples
+Training acc over epoch: 0.9204
+Training loss (for one batch) at step 310: 0.3329
+Seen so far: 19904 samples
+Training acc over epoch: 0.9202
+Training loss (for one batch) at step 311: 0.2047
+Seen so far: 19968 samples
+Training acc over epoch: 0.9204
+Training loss (for one batch) at step 312: 0.3580
+Seen so far: 20032 samples
+Training acc over epoch: 0.9203
+Testing Accuracy: 86.52%
+
+Start of epoch 4
+Training loss (for one batch) at step 0: 0.1470
+Seen so far: 64 samples
+Training acc over epoch: 0.9375
+Training loss (for one batch) at step 1: 0.2329
+Seen so far: 128 samples
+Training acc over epoch: 0.9062
+Training loss (for one batch) at step 2: 0.1840
+Seen so far: 192 samples
+Training acc over epoch: 0.9062
+Training loss (for one batch) at step 3: 0.2729
+Seen so far: 256 samples
+Training acc over epoch: 0.8984
+Training loss (for one batch) at step 4: 0.2084
+Seen so far: 320 samples
+Training acc over epoch: 0.9031
+Training loss (for one batch) at step 5: 0.2114
+Seen so far: 384 samples
+Training acc over epoch: 0.9115
+Training loss (for one batch) at step 6: 0.2507
+Seen so far: 448 samples
+Training acc over epoch: 0.9107
+Training loss (for one batch) at step 7: 0.1257
+Seen so far: 512 samples
+Training acc over epoch: 0.9160
+Training loss (for one batch) at step 8: 0.1798
+Seen so far: 576 samples
+Training acc over epoch: 0.9184
+Training loss (for one batch) at step 9: 0.1041
+Seen so far: 640 samples
+Training acc over epoch: 0.9234
+Training loss (for one batch) at step 10: 0.2099
+Seen so far: 704 samples
+Training acc over epoch: 0.9247
+Training loss (for one batch) at step 11: 0.1473
+Seen so far: 768 samples
+Training acc over epoch: 0.9271
+Training loss (for one batch) at step 12: 0.1751
+Seen so far: 832 samples
+Training acc over epoch: 0.9279
+Training loss (for one batch) at step 13: 0.1503
+Seen so far: 896 samples
+Training acc over epoch: 0.9297
+Training loss (for one batch) at step 14: 0.1251
+Seen so far: 960 samples
+Training acc over epoch: 0.9323
+Training loss (for one batch) at step 15: 0.1464
+Seen so far: 1024 samples
+Training acc over epoch: 0.9326
+Training loss (for one batch) at step 16: 0.0996
+Seen so far: 1088 samples
+Training acc over epoch: 0.9357
+Training loss (for one batch) at step 17: 0.1547
+Seen so far: 1152 samples
+Training acc over epoch: 0.9375
+Training loss (for one batch) at step 18: 0.1936
+Seen so far: 1216 samples
+Training acc over epoch: 0.9375
+Training loss (for one batch) at step 19: 0.2295
+Seen so far: 1280 samples
+Training acc over epoch: 0.9367
+Training loss (for one batch) at step 20: 0.1399
+Seen so far: 1344 samples
+Training acc over epoch: 0.9368
+Training loss (for one batch) at step 21: 0.0997
+Seen so far: 1408 samples
+Training acc over epoch: 0.9389
+Training loss (for one batch) at step 22: 0.1274
+Seen so far: 1472 samples
+Training acc over epoch: 0.9389
+Training loss (for one batch) at step 23: 0.2955
+Seen so far: 1536 samples
+Training acc over epoch: 0.9368
+Training loss (for one batch) at step 24: 0.1408
+Seen so far: 1600 samples
+Training acc over epoch: 0.9375
+Training loss (for one batch) at step 25: 0.0725
+Seen so far: 1664 samples
+Training acc over epoch: 0.9399
+Training loss (for one batch) at step 26: 0.1357
+Seen so far: 1728 samples
+Training acc over epoch: 0.9404
+Training loss (for one batch) at step 27: 0.1141
+Seen so far: 1792 samples
+Training acc over epoch: 0.9408
+Training loss (for one batch) at step 28: 0.2505
+Seen so far: 1856 samples
+Training acc over epoch: 0.9402
+Training loss (for one batch) at step 29: 0.2713
+Seen so far: 1920 samples
+Training acc over epoch: 0.9385
+Training loss (for one batch) at step 30: 0.1464
+Seen so far: 1984 samples
+Training acc over epoch: 0.9390
+Validation acc: 0.8673
+Time taken: 41.10s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 31: 0.2638
+Seen so far: 2048 samples
+Training acc over epoch: 0.9375
+Training loss (for one batch) at step 32: 0.2027
+Seen so far: 2112 samples
+Training acc over epoch: 0.9370
+Training loss (for one batch) at step 33: 0.1898
+Seen so far: 2176 samples
+Training acc over epoch: 0.9370
+Training loss (for one batch) at step 34: 0.2055
+Seen so far: 2240 samples
+Training acc over epoch: 0.9362
+Training loss (for one batch) at step 35: 0.1836
+Seen so far: 2304 samples
+Training acc over epoch: 0.9353
+Training loss (for one batch) at step 36: 0.1550
+Seen so far: 2368 samples
+Training acc over epoch: 0.9345
+Training loss (for one batch) at step 37: 0.2098
+Seen so far: 2432 samples
+Training acc over epoch: 0.9334
+Training loss (for one batch) at step 38: 0.1993
+Seen so far: 2496 samples
+Training acc over epoch: 0.9331
+Training loss (for one batch) at step 39: 0.0773
+Seen so far: 2560 samples
+Training acc over epoch: 0.9344
+Training loss (for one batch) at step 40: 0.2292
+Seen so far: 2624 samples
+Training acc over epoch: 0.9341
+Training loss (for one batch) at step 41: 0.1558
+Seen so far: 2688 samples
+Training acc over epoch: 0.9334
+Training loss (for one batch) at step 42: 0.2989
+Seen so far: 2752 samples
+Training acc over epoch: 0.9317
+Training loss (for one batch) at step 43: 0.2229
+Seen so far: 2816 samples
+Training acc over epoch: 0.9311
+Training loss (for one batch) at step 44: 0.1875
+Seen so far: 2880 samples
+Training acc over epoch: 0.9319
+Training loss (for one batch) at step 45: 0.1966
+Seen so far: 2944 samples
+Training acc over epoch: 0.9314
+Training loss (for one batch) at step 46: 0.1996
+Seen so far: 3008 samples
+Training acc over epoch: 0.9312
+Training loss (for one batch) at step 47: 0.2239
+Seen so far: 3072 samples
+Training acc over epoch: 0.9303
+Training loss (for one batch) at step 48: 0.1821
+Seen so far: 3136 samples
+Training acc over epoch: 0.9305
+Training loss (for one batch) at step 49: 0.2252
+Seen so far: 3200 samples
+Training acc over epoch: 0.9291
+Training loss (for one batch) at step 50: 0.1362
+Seen so far: 3264 samples
+Training acc over epoch: 0.9298
+Training loss (for one batch) at step 51: 0.1508
+Seen so far: 3328 samples
+Training acc over epoch: 0.9303
+Training loss (for one batch) at step 52: 0.2781
+Seen so far: 3392 samples
+Training acc over epoch: 0.9292
+Training loss (for one batch) at step 53: 0.2210
+Seen so far: 3456 samples
+Training acc over epoch: 0.9288
+Training loss (for one batch) at step 54: 0.2017
+Seen so far: 3520 samples
+Training acc over epoch: 0.9284
+Training loss (for one batch) at step 55: 0.4058
+Seen so far: 3584 samples
+Training acc over epoch: 0.9266
+Training loss (for one batch) at step 56: 0.1821
+Seen so far: 3648 samples
+Training acc over epoch: 0.9268
+Training loss (for one batch) at step 57: 0.1475
+Seen so far: 3712 samples
+Training acc over epoch: 0.9278
+Training loss (for one batch) at step 58: 0.2320
+Seen so far: 3776 samples
+Training acc over epoch: 0.9277
+Training loss (for one batch) at step 59: 0.3144
+Seen so far: 3840 samples
+Training acc over epoch: 0.9271
+Training loss (for one batch) at step 60: 0.1078
+Seen so far: 3904 samples
+Training acc over epoch: 0.9273
+Validation acc: 0.8746
+Time taken: 163.24s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 61: 0.3222
+Seen so far: 3968 samples
+Training acc over epoch: 0.9267
+Training loss (for one batch) at step 62: 0.1813
+Seen so far: 4032 samples
+Training acc over epoch: 0.9266
+Training loss (for one batch) at step 63: 0.1680
+Seen so far: 4096 samples
+Training acc over epoch: 0.9270
+Training loss (for one batch) at step 64: 0.1292
+Seen so far: 4160 samples
+Training acc over epoch: 0.9276
+Training loss (for one batch) at step 65: 0.2199
+Seen so far: 4224 samples
+Training acc over epoch: 0.9280
+Training loss (for one batch) at step 66: 0.1226
+Seen so far: 4288 samples
+Training acc over epoch: 0.9286
+Training loss (for one batch) at step 67: 0.1887
+Seen so far: 4352 samples
+Training acc over epoch: 0.9281
+Training loss (for one batch) at step 68: 0.2257
+Seen so far: 4416 samples
+Training acc over epoch: 0.9275
+Training loss (for one batch) at step 69: 0.1488
+Seen so far: 4480 samples
+Training acc over epoch: 0.9279
+Training loss (for one batch) at step 70: 0.1612
+Seen so far: 4544 samples
+Training acc over epoch: 0.9287
+Training loss (for one batch) at step 71: 0.1328
+Seen so far: 4608 samples
+Training acc over epoch: 0.9293
+Training loss (for one batch) at step 72: 0.1396
+Seen so far: 4672 samples
+Training acc over epoch: 0.9296
+Training loss (for one batch) at step 73: 0.2278
+Seen so far: 4736 samples
+Training acc over epoch: 0.9295
+Training loss (for one batch) at step 74: 0.1747
+Seen so far: 4800 samples
+Training acc over epoch: 0.9292
+Training loss (for one batch) at step 75: 0.2072
+Seen so far: 4864 samples
+Training acc over epoch: 0.9293
+Training loss (for one batch) at step 76: 0.2472
+Seen so far: 4928 samples
+Training acc over epoch: 0.9294
+Training loss (for one batch) at step 77: 0.3773
+Seen so far: 4992 samples
+Training acc over epoch: 0.9283
+Training loss (for one batch) at step 78: 0.2674
+Seen so far: 5056 samples
+Training acc over epoch: 0.9280
+Training loss (for one batch) at step 79: 0.2221
+Seen so far: 5120 samples
+Training acc over epoch: 0.9275
+Training loss (for one batch) at step 80: 0.2923
+Seen so far: 5184 samples
+Training acc over epoch: 0.9269
+Training loss (for one batch) at step 81: 0.2921
+Seen so far: 5248 samples
+Training acc over epoch: 0.9266
+Training loss (for one batch) at step 82: 0.2323
+Seen so far: 5312 samples
+Training acc over epoch: 0.9262
+Training loss (for one batch) at step 83: 0.2271
+Seen so far: 5376 samples
+Training acc over epoch: 0.9262
+Training loss (for one batch) at step 84: 0.1844
+Seen so far: 5440 samples
+Training acc over epoch: 0.9261
+Training loss (for one batch) at step 85: 0.2735
+Seen so far: 5504 samples
+Training acc over epoch: 0.9255
+Training loss (for one batch) at step 86: 0.2532
+Seen so far: 5568 samples
+Training acc over epoch: 0.9249
+Training loss (for one batch) at step 87: 0.2263
+Seen so far: 5632 samples
+Training acc over epoch: 0.9247
+Training loss (for one batch) at step 88: 0.1672
+Seen so far: 5696 samples
+Training acc over epoch: 0.9249
+Training loss (for one batch) at step 89: 0.1859
+Seen so far: 5760 samples
+Training acc over epoch: 0.9252
+Training loss (for one batch) at step 90: 0.1585
+Seen so far: 5824 samples
+Training acc over epoch: 0.9253
+Validation acc: 0.8746
+Time taken: 284.39s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 91: 0.0874
+Seen so far: 5888 samples
+Training acc over epoch: 0.9261
+Training loss (for one batch) at step 92: 0.1079
+Seen so far: 5952 samples
+Training acc over epoch: 0.9266
+Training loss (for one batch) at step 93: 0.1959
+Seen so far: 6016 samples
+Training acc over epoch: 0.9269
+Training loss (for one batch) at step 94: 0.1622
+Seen so far: 6080 samples
+Training acc over epoch: 0.9271
+Training loss (for one batch) at step 95: 0.2283
+Seen so far: 6144 samples
+Training acc over epoch: 0.9269
+Training loss (for one batch) at step 96: 0.2369
+Seen so far: 6208 samples
+Training acc over epoch: 0.9269
+Training loss (for one batch) at step 97: 0.2788
+Seen so far: 6272 samples
+Training acc over epoch: 0.9263
+Training loss (for one batch) at step 98: 0.1687
+Seen so far: 6336 samples
+Training acc over epoch: 0.9266
+Training loss (for one batch) at step 99: 0.2826
+Seen so far: 6400 samples
+Training acc over epoch: 0.9259
+Training loss (for one batch) at step 100: 0.1606
+Seen so far: 6464 samples
+Training acc over epoch: 0.9261
+Training loss (for one batch) at step 101: 0.1477
+Seen so far: 6528 samples
+Training acc over epoch: 0.9263
+Training loss (for one batch) at step 102: 0.2587
+Seen so far: 6592 samples
+Training acc over epoch: 0.9258
+Training loss (for one batch) at step 103: 0.3361
+Seen so far: 6656 samples
+Training acc over epoch: 0.9250
+Training loss (for one batch) at step 104: 0.1975
+Seen so far: 6720 samples
+Training acc over epoch: 0.9250
+Training loss (for one batch) at step 105: 0.3233
+Seen so far: 6784 samples
+Training acc over epoch: 0.9241
+Training loss (for one batch) at step 106: 0.3203
+Seen so far: 6848 samples
+Training acc over epoch: 0.9233
+Training loss (for one batch) at step 107: 0.2720
+Seen so far: 6912 samples
+Training acc over epoch: 0.9229
+Training loss (for one batch) at step 108: 0.1616
+Seen so far: 6976 samples
+Training acc over epoch: 0.9230
+Training loss (for one batch) at step 109: 0.2304
+Seen so far: 7040 samples
+Training acc over epoch: 0.9229
+Training loss (for one batch) at step 110: 0.2087
+Seen so far: 7104 samples
+Training acc over epoch: 0.9229
+Training loss (for one batch) at step 111: 0.0959
+Seen so far: 7168 samples
+Training acc over epoch: 0.9234
+Training loss (for one batch) at step 112: 0.1766
+Seen so far: 7232 samples
+Training acc over epoch: 0.9238
+Training loss (for one batch) at step 113: 0.2164
+Seen so far: 7296 samples
+Training acc over epoch: 0.9239
+Training loss (for one batch) at step 114: 0.1734
+Seen so far: 7360 samples
+Training acc over epoch: 0.9240
+Training loss (for one batch) at step 115: 0.2492
+Seen so far: 7424 samples
+Training acc over epoch: 0.9238
+Training loss (for one batch) at step 116: 0.2094
+Seen so far: 7488 samples
+Training acc over epoch: 0.9236
+Training loss (for one batch) at step 117: 0.1626
+Seen so far: 7552 samples
+Training acc over epoch: 0.9237
+Training loss (for one batch) at step 118: 0.2300
+Seen so far: 7616 samples
+Training acc over epoch: 0.9235
+Training loss (for one batch) at step 119: 0.2320
+Seen so far: 7680 samples
+Training acc over epoch: 0.9234
+Training loss (for one batch) at step 120: 0.1764
+Seen so far: 7744 samples
+Training acc over epoch: 0.9237
+Validation acc: 0.8689
+Time taken: 405.72s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 121: 0.1933
+Seen so far: 7808 samples
+Training acc over epoch: 0.9237
+Training loss (for one batch) at step 122: 0.1649
+Seen so far: 7872 samples
+Training acc over epoch: 0.9239
+Training loss (for one batch) at step 123: 0.2254
+Seen so far: 7936 samples
+Training acc over epoch: 0.9238
+Training loss (for one batch) at step 124: 0.1847
+Seen so far: 8000 samples
+Training acc over epoch: 0.9240
+Training loss (for one batch) at step 125: 0.2098
+Seen so far: 8064 samples
+Training acc over epoch: 0.9240
+Training loss (for one batch) at step 126: 0.2099
+Seen so far: 8128 samples
+Training acc over epoch: 0.9238
+Training loss (for one batch) at step 127: 0.1965
+Seen so far: 8192 samples
+Training acc over epoch: 0.9237
+Training loss (for one batch) at step 128: 0.1457
+Seen so far: 8256 samples
+Training acc over epoch: 0.9239
+Training loss (for one batch) at step 129: 0.2012
+Seen so far: 8320 samples
+Training acc over epoch: 0.9240
+Training loss (for one batch) at step 130: 0.1324
+Seen so far: 8384 samples
+Training acc over epoch: 0.9244
+Training loss (for one batch) at step 131: 0.1892
+Seen so far: 8448 samples
+Training acc over epoch: 0.9245
+Training loss (for one batch) at step 132: 0.1848
+Seen so far: 8512 samples
+Training acc over epoch: 0.9247
+Training loss (for one batch) at step 133: 0.2411
+Seen so far: 8576 samples
+Training acc over epoch: 0.9246
+Training loss (for one batch) at step 134: 0.1516
+Seen so far: 8640 samples
+Training acc over epoch: 0.9249
+Training loss (for one batch) at step 135: 0.0990
+Seen so far: 8704 samples
+Training acc over epoch: 0.9253
+Training loss (for one batch) at step 136: 0.1343
+Seen so far: 8768 samples
+Training acc over epoch: 0.9256
+Training loss (for one batch) at step 137: 0.2165
+Seen so far: 8832 samples
+Training acc over epoch: 0.9258
+Training loss (for one batch) at step 138: 0.3564
+Seen so far: 8896 samples
+Training acc over epoch: 0.9255
+Training loss (for one batch) at step 139: 0.2281
+Seen so far: 8960 samples
+Training acc over epoch: 0.9254
+Training loss (for one batch) at step 140: 0.1755
+Seen so far: 9024 samples
+Training acc over epoch: 0.9254
+Training loss (for one batch) at step 141: 0.2279
+Seen so far: 9088 samples
+Training acc over epoch: 0.9252
+Training loss (for one batch) at step 142: 0.2036
+Seen so far: 9152 samples
+Training acc over epoch: 0.9253
+Training loss (for one batch) at step 143: 0.0970
+Seen so far: 9216 samples
+Training acc over epoch: 0.9257
+Training loss (for one batch) at step 144: 0.1319
+Seen so far: 9280 samples
+Training acc over epoch: 0.9259
+Training loss (for one batch) at step 145: 0.1435
+Seen so far: 9344 samples
+Training acc over epoch: 0.9260
+Training loss (for one batch) at step 146: 0.1521
+Seen so far: 9408 samples
+Training acc over epoch: 0.9263
+Training loss (for one batch) at step 147: 0.1455
+Seen so far: 9472 samples
+Training acc over epoch: 0.9265
+Training loss (for one batch) at step 148: 0.1521
+Seen so far: 9536 samples
+Training acc over epoch: 0.9269
+Training loss (for one batch) at step 149: 0.1621
+Seen so far: 9600 samples
+Training acc over epoch: 0.9269
+Training loss (for one batch) at step 150: 0.1738
+Seen so far: 9664 samples
+Training acc over epoch: 0.9269
+Validation acc: 0.8742
+Time taken: 528.09s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Testing Accuracy: 86.88%
+Training loss (for one batch) at step 151: 0.1337
+Seen so far: 9728 samples
+Training acc over epoch: 0.9272
+Training loss (for one batch) at step 152: 0.2636
+Seen so far: 9792 samples
+Training acc over epoch: 0.9271
+Training loss (for one batch) at step 153: 0.2046
+Seen so far: 9856 samples
+Training acc over epoch: 0.9273
+Training loss (for one batch) at step 154: 0.2580
+Seen so far: 9920 samples
+Training acc over epoch: 0.9272
+Training loss (for one batch) at step 155: 0.2248
+Seen so far: 9984 samples
+Training acc over epoch: 0.9274
+Training loss (for one batch) at step 156: 0.1470
+Seen so far: 10048 samples
+Training acc over epoch: 0.9276
+Training loss (for one batch) at step 157: 0.2654
+Seen so far: 10112 samples
+Training acc over epoch: 0.9275
+Training loss (for one batch) at step 158: 0.1219
+Seen so far: 10176 samples
+Training acc over epoch: 0.9279
+Training loss (for one batch) at step 159: 0.1558
+Seen so far: 10240 samples
+Training acc over epoch: 0.9279
+Training loss (for one batch) at step 160: 0.1391
+Seen so far: 10304 samples
+Training acc over epoch: 0.9281
+Training loss (for one batch) at step 161: 0.2085
+Seen so far: 10368 samples
+Training acc over epoch: 0.9280
+Training loss (for one batch) at step 162: 0.2059
+Seen so far: 10432 samples
+Training acc over epoch: 0.9281
+Training loss (for one batch) at step 163: 0.2979
+Seen so far: 10496 samples
+Training acc over epoch: 0.9281
+Training loss (for one batch) at step 164: 0.1914
+Seen so far: 10560 samples
+Training acc over epoch: 0.9282
+Training loss (for one batch) at step 165: 0.2340
+Seen so far: 10624 samples
+Training acc over epoch: 0.9281
+Training loss (for one batch) at step 166: 0.1648
+Seen so far: 10688 samples
+Training acc over epoch: 0.9283
+Training loss (for one batch) at step 167: 0.2151
+Seen so far: 10752 samples
+Training acc over epoch: 0.9283
+Training loss (for one batch) at step 168: 0.1509
+Seen so far: 10816 samples
+Training acc over epoch: 0.9286
+Training loss (for one batch) at step 169: 0.2682
+Seen so far: 10880 samples
+Training acc over epoch: 0.9284
+Training loss (for one batch) at step 170: 0.2208
+Seen so far: 10944 samples
+Training acc over epoch: 0.9285
+Training loss (for one batch) at step 171: 0.2323
+Seen so far: 11008 samples
+Training acc over epoch: 0.9284
+Training loss (for one batch) at step 172: 0.1311
+Seen so far: 11072 samples
+Training acc over epoch: 0.9287
+Training loss (for one batch) at step 173: 0.2099
+Seen so far: 11136 samples
+Training acc over epoch: 0.9286
+Training loss (for one batch) at step 174: 0.1489
+Seen so far: 11200 samples
+Training acc over epoch: 0.9287
+Training loss (for one batch) at step 175: 0.2156
+Seen so far: 11264 samples
+Training acc over epoch: 0.9286
+Training loss (for one batch) at step 176: 0.2371
+Seen so far: 11328 samples
+Training acc over epoch: 0.9286
+Training loss (for one batch) at step 177: 0.2225
+Seen so far: 11392 samples
+Training acc over epoch: 0.9286
+Training loss (for one batch) at step 178: 0.1854
+Seen so far: 11456 samples
+Training acc over epoch: 0.9286
+Training loss (for one batch) at step 179: 0.1816
+Seen so far: 11520 samples
+Training acc over epoch: 0.9286
+Training loss (for one batch) at step 180: 0.2788
+Seen so far: 11584 samples
+Training acc over epoch: 0.9284
+Validation acc: 0.8748
+Time taken: 695.43s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 181: 0.2259
+Seen so far: 11648 samples
+Training acc over epoch: 0.9283
+Training loss (for one batch) at step 182: 0.2498
+Seen so far: 11712 samples
+Training acc over epoch: 0.9282
+Training loss (for one batch) at step 183: 0.2073
+Seen so far: 11776 samples
+Training acc over epoch: 0.9282
+Training loss (for one batch) at step 184: 0.2595
+Seen so far: 11840 samples
+Training acc over epoch: 0.9280
+Training loss (for one batch) at step 185: 0.1873
+Seen so far: 11904 samples
+Training acc over epoch: 0.9281
+Training loss (for one batch) at step 186: 0.1428
+Seen so far: 11968 samples
+Training acc over epoch: 0.9281
+Training loss (for one batch) at step 187: 0.1631
+Seen so far: 12032 samples
+Training acc over epoch: 0.9282
+Training loss (for one batch) at step 188: 0.2156
+Seen so far: 12096 samples
+Training acc over epoch: 0.9280
+Training loss (for one batch) at step 189: 0.1322
+Seen so far: 12160 samples
+Training acc over epoch: 0.9282
+Training loss (for one batch) at step 190: 0.2886
+Seen so far: 12224 samples
+Training acc over epoch: 0.9279
+Training loss (for one batch) at step 191: 0.2150
+Seen so far: 12288 samples
+Training acc over epoch: 0.9279
+Training loss (for one batch) at step 192: 0.1997
+Seen so far: 12352 samples
+Training acc over epoch: 0.9280
+Training loss (for one batch) at step 193: 0.1635
+Seen so far: 12416 samples
+Training acc over epoch: 0.9282
+Training loss (for one batch) at step 194: 0.2530
+Seen so far: 12480 samples
+Training acc over epoch: 0.9280
+Training loss (for one batch) at step 195: 0.1990
+Seen so far: 12544 samples
+Training acc over epoch: 0.9280
+Training loss (for one batch) at step 196: 0.1561
+Seen so far: 12608 samples
+Training acc over epoch: 0.9281
+Training loss (for one batch) at step 197: 0.1292
+Seen so far: 12672 samples
+Training acc over epoch: 0.9283
+Training loss (for one batch) at step 198: 0.1425
+Seen so far: 12736 samples
+Training acc over epoch: 0.9285
+Training loss (for one batch) at step 199: 0.1377
+Seen so far: 12800 samples
+Training acc over epoch: 0.9286
+Training loss (for one batch) at step 200: 0.2232
+Seen so far: 12864 samples
+Training acc over epoch: 0.9285
+Training loss (for one batch) at step 201: 0.1178
+Seen so far: 12928 samples
+Training acc over epoch: 0.9287
+Training loss (for one batch) at step 202: 0.2839
+Seen so far: 12992 samples
+Training acc over epoch: 0.9284
+Training loss (for one batch) at step 203: 0.2168
+Seen so far: 13056 samples
+Training acc over epoch: 0.9285
+Training loss (for one batch) at step 204: 0.2418
+Seen so far: 13120 samples
+Training acc over epoch: 0.9284
+Training loss (for one batch) at step 205: 0.2092
+Seen so far: 13184 samples
+Training acc over epoch: 0.9283
+Training loss (for one batch) at step 206: 0.2575
+Seen so far: 13248 samples
+Training acc over epoch: 0.9283
+Training loss (for one batch) at step 207: 0.1741
+Seen so far: 13312 samples
+Training acc over epoch: 0.9284
+Training loss (for one batch) at step 208: 0.2537
+Seen so far: 13376 samples
+Training acc over epoch: 0.9285
+Training loss (for one batch) at step 209: 0.2090
+Seen so far: 13440 samples
+Training acc over epoch: 0.9283
+Training loss (for one batch) at step 210: 0.2196
+Seen so far: 13504 samples
+Training acc over epoch: 0.9282
+Validation acc: 0.8438
+Time taken: 816.53s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 211: 0.2263
+Seen so far: 13568 samples
+Training acc over epoch: 0.9282
+Training loss (for one batch) at step 212: 0.2231
+Seen so far: 13632 samples
+Training acc over epoch: 0.9281
+Training loss (for one batch) at step 213: 0.2693
+Seen so far: 13696 samples
+Training acc over epoch: 0.9279
+Training loss (for one batch) at step 214: 0.1922
+Seen so far: 13760 samples
+Training acc over epoch: 0.9281
+Training loss (for one batch) at step 215: 0.2451
+Seen so far: 13824 samples
+Training acc over epoch: 0.9280
+Training loss (for one batch) at step 216: 0.1918
+Seen so far: 13888 samples
+Training acc over epoch: 0.9281
+Training loss (for one batch) at step 217: 0.2403
+Seen so far: 13952 samples
+Training acc over epoch: 0.9280
+Training loss (for one batch) at step 218: 0.1538
+Seen so far: 14016 samples
+Training acc over epoch: 0.9282
+Training loss (for one batch) at step 219: 0.2321
+Seen so far: 14080 samples
+Training acc over epoch: 0.9280
+Training loss (for one batch) at step 220: 0.3632
+Seen so far: 14144 samples
+Training acc over epoch: 0.9276
+Training loss (for one batch) at step 221: 0.3342
+Seen so far: 14208 samples
+Training acc over epoch: 0.9272
+Training loss (for one batch) at step 222: 0.2037
+Seen so far: 14272 samples
+Training acc over epoch: 0.9273
+Training loss (for one batch) at step 223: 0.1865
+Seen so far: 14336 samples
+Training acc over epoch: 0.9274
+Training loss (for one batch) at step 224: 0.1783
+Seen so far: 14400 samples
+Training acc over epoch: 0.9274
+Training loss (for one batch) at step 225: 0.2343
+Seen so far: 14464 samples
+Training acc over epoch: 0.9273
+Training loss (for one batch) at step 226: 0.2129
+Seen so far: 14528 samples
+Training acc over epoch: 0.9274
+Training loss (for one batch) at step 227: 0.2126
+Seen so far: 14592 samples
+Training acc over epoch: 0.9274
+Training loss (for one batch) at step 228: 0.2594
+Seen so far: 14656 samples
+Training acc over epoch: 0.9273
+Training loss (for one batch) at step 229: 0.1844
+Seen so far: 14720 samples
+Training acc over epoch: 0.9274
+Training loss (for one batch) at step 230: 0.1976
+Seen so far: 14784 samples
+Training acc over epoch: 0.9272
+Training loss (for one batch) at step 231: 0.1314
+Seen so far: 14848 samples
+Training acc over epoch: 0.9275
+Training loss (for one batch) at step 232: 0.2971
+Seen so far: 14912 samples
+Training acc over epoch: 0.9274
+Training loss (for one batch) at step 233: 0.2318
+Seen so far: 14976 samples
+Training acc over epoch: 0.9274
+Training loss (for one batch) at step 234: 0.1670
+Seen so far: 15040 samples
+Training acc over epoch: 0.9275
+Training loss (for one batch) at step 235: 0.2191
+Seen so far: 15104 samples
+Training acc over epoch: 0.9276
+Training loss (for one batch) at step 236: 0.2220
+Seen so far: 15168 samples
+Training acc over epoch: 0.9275
+Training loss (for one batch) at step 237: 0.2110
+Seen so far: 15232 samples
+Training acc over epoch: 0.9275
+Training loss (for one batch) at step 238: 0.1815
+Seen so far: 15296 samples
+Training acc over epoch: 0.9276
+Training loss (for one batch) at step 239: 0.1896
+Seen so far: 15360 samples
+Training acc over epoch: 0.9277
+Training loss (for one batch) at step 240: 0.2216
+Seen so far: 15424 samples
+Training acc over epoch: 0.9276
+Validation acc: 0.8736
+Time taken: 938.66s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 241: 0.2484
+Seen so far: 15488 samples
+Training acc over epoch: 0.9275
+Training loss (for one batch) at step 242: 0.1881
+Seen so far: 15552 samples
+Training acc over epoch: 0.9275
+Training loss (for one batch) at step 243: 0.2190
+Seen so far: 15616 samples
+Training acc over epoch: 0.9274
+Training loss (for one batch) at step 244: 0.2041
+Seen so far: 15680 samples
+Training acc over epoch: 0.9272
+Training loss (for one batch) at step 245: 0.1492
+Seen so far: 15744 samples
+Training acc over epoch: 0.9274
+Training loss (for one batch) at step 246: 0.2664
+Seen so far: 15808 samples
+Training acc over epoch: 0.9271
+Training loss (for one batch) at step 247: 0.1881
+Seen so far: 15872 samples
+Training acc over epoch: 0.9272
+Training loss (for one batch) at step 248: 0.2491
+Seen so far: 15936 samples
+Training acc over epoch: 0.9270
+Training loss (for one batch) at step 249: 0.1954
+Seen so far: 16000 samples
+Training acc over epoch: 0.9271
+Training loss (for one batch) at step 250: 0.2101
+Seen so far: 16064 samples
+Training acc over epoch: 0.9270
+Training loss (for one batch) at step 251: 0.2003
+Seen so far: 16128 samples
+Training acc over epoch: 0.9271
+Training loss (for one batch) at step 252: 0.1936
+Seen so far: 16192 samples
+Training acc over epoch: 0.9273
+Training loss (for one batch) at step 253: 0.2090
+Seen so far: 16256 samples
+Training acc over epoch: 0.9273
+Training loss (for one batch) at step 254: 0.1700
+Seen so far: 16320 samples
+Training acc over epoch: 0.9274
+Training loss (for one batch) at step 255: 0.1819
+Seen so far: 16384 samples
+Training acc over epoch: 0.9275
+Training loss (for one batch) at step 256: 0.1794
+Seen so far: 16448 samples
+Training acc over epoch: 0.9274
+Training loss (for one batch) at step 257: 0.2378
+Seen so far: 16512 samples
+Training acc over epoch: 0.9273
+Training loss (for one batch) at step 258: 0.2381
+Seen so far: 16576 samples
+Training acc over epoch: 0.9272
+Training loss (for one batch) at step 259: 0.1958
+Seen so far: 16640 samples
+Training acc over epoch: 0.9273
+Training loss (for one batch) at step 260: 0.1508
+Seen so far: 16704 samples
+Training acc over epoch: 0.9276
+Training loss (for one batch) at step 261: 0.1483
+Seen so far: 16768 samples
+Training acc over epoch: 0.9278
+Training loss (for one batch) at step 262: 0.1806
+Seen so far: 16832 samples
+Training acc over epoch: 0.9280
+Training loss (for one batch) at step 263: 0.1946
+Seen so far: 16896 samples
+Training acc over epoch: 0.9280
+Training loss (for one batch) at step 264: 0.2178
+Seen so far: 16960 samples
+Training acc over epoch: 0.9280
+Training loss (for one batch) at step 265: 0.1951
+Seen so far: 17024 samples
+Training acc over epoch: 0.9279
+Training loss (for one batch) at step 266: 0.2044
+Seen so far: 17088 samples
+Training acc over epoch: 0.9278
+Training loss (for one batch) at step 267: 0.1486
+Seen so far: 17152 samples
+Training acc over epoch: 0.9280
+Training loss (for one batch) at step 268: 0.1859
+Seen so far: 17216 samples
+Training acc over epoch: 0.9281
+Training loss (for one batch) at step 269: 0.2044
+Seen so far: 17280 samples
+Training acc over epoch: 0.9282
+Training loss (for one batch) at step 270: 0.2062
+Seen so far: 17344 samples
+Training acc over epoch: 0.9282
+Validation acc: 0.8756
+Time taken: 1060.98s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 271: 0.1572
+Seen so far: 17408 samples
+Training acc over epoch: 0.9284
+Training loss (for one batch) at step 272: 0.1551
+Seen so far: 17472 samples
+Training acc over epoch: 0.9285
+Training loss (for one batch) at step 273: 0.1989
+Seen so far: 17536 samples
+Training acc over epoch: 0.9285
+Training loss (for one batch) at step 274: 0.2376
+Seen so far: 17600 samples
+Training acc over epoch: 0.9285
+Training loss (for one batch) at step 275: 0.2627
+Seen so far: 17664 samples
+Training acc over epoch: 0.9283
+Training loss (for one batch) at step 276: 0.2338
+Seen so far: 17728 samples
+Training acc over epoch: 0.9282
+Training loss (for one batch) at step 277: 0.1977
+Seen so far: 17792 samples
+Training acc over epoch: 0.9282
+Training loss (for one batch) at step 278: 0.1685
+Seen so far: 17856 samples
+Training acc over epoch: 0.9282
+Training loss (for one batch) at step 279: 0.2376
+Seen so far: 17920 samples
+Training acc over epoch: 0.9281
+Training loss (for one batch) at step 280: 0.2341
+Seen so far: 17984 samples
+Training acc over epoch: 0.9280
+Training loss (for one batch) at step 281: 0.1894
+Seen so far: 18048 samples
+Training acc over epoch: 0.9281
+Training loss (for one batch) at step 282: 0.1499
+Seen so far: 18112 samples
+Training acc over epoch: 0.9282
+Training loss (for one batch) at step 283: 0.2207
+Seen so far: 18176 samples
+Training acc over epoch: 0.9281
+Training loss (for one batch) at step 284: 0.2602
+Seen so far: 18240 samples
+Training acc over epoch: 0.9281
+Training loss (for one batch) at step 285: 0.1774
+Seen so far: 18304 samples
+Training acc over epoch: 0.9282
+Training loss (for one batch) at step 286: 0.1960
+Seen so far: 18368 samples
+Training acc over epoch: 0.9283
+Training loss (for one batch) at step 287: 0.1767
+Seen so far: 18432 samples
+Training acc over epoch: 0.9283
+Training loss (for one batch) at step 288: 0.2169
+Seen so far: 18496 samples
+Training acc over epoch: 0.9283
+Training loss (for one batch) at step 289: 0.2180
+Seen so far: 18560 samples
+Training acc over epoch: 0.9282
+Training loss (for one batch) at step 290: 0.1992
+Seen so far: 18624 samples
+Training acc over epoch: 0.9282
+Training loss (for one batch) at step 291: 0.1298
+Seen so far: 18688 samples
+Training acc over epoch: 0.9285
+Training loss (for one batch) at step 292: 0.1377
+Seen so far: 18752 samples
+Training acc over epoch: 0.9286
+Training loss (for one batch) at step 293: 0.1902
+Seen so far: 18816 samples
+Training acc over epoch: 0.9285
+Training loss (for one batch) at step 294: 0.1846
+Seen so far: 18880 samples
+Training acc over epoch: 0.9285
+Training loss (for one batch) at step 295: 0.2737
+Seen so far: 18944 samples
+Training acc over epoch: 0.9284
+Training loss (for one batch) at step 296: 0.2260
+Seen so far: 19008 samples
+Training acc over epoch: 0.9285
+Training loss (for one batch) at step 297: 0.1923
+Seen so far: 19072 samples
+Training acc over epoch: 0.9286
+Training loss (for one batch) at step 298: 0.2818
+Seen so far: 19136 samples
+Training acc over epoch: 0.9284
+Training loss (for one batch) at step 299: 0.1971
+Seen so far: 19200 samples
+Training acc over epoch: 0.9284
+Training loss (for one batch) at step 300: 0.1908
+Seen so far: 19264 samples
+Training acc over epoch: 0.9284
+Validation acc: 0.8756
+Time taken: 1182.63s
+Updated so far: 0
+Updated so far: 50
+Updated so far: 100
+Updated so far: 150
+Updated so far: 200
+Updated so far: 250
+Updated so far: 300
+Updating Completed
+Training loss (for one batch) at step 301: 0.2178
+Seen so far: 19328 samples
+Training acc over epoch: 0.9283
+Training loss (for one batch) at step 302: 0.1612
+Seen so far: 19392 samples
+Training acc over epoch: 0.9284
+Training loss (for one batch) at step 303: 0.2554
+Seen so far: 19456 samples
+Training acc over epoch: 0.9283
+Training loss (for one batch) at step 304: 0.1354
+Seen so far: 19520 samples
+Training acc over epoch: 0.9285
+Training loss (for one batch) at step 305: 0.2613
+Seen so far: 19584 samples
+Training acc over epoch: 0.9285
+Training loss (for one batch) at step 306: 0.1527
+Seen so far: 19648 samples
+Training acc over epoch: 0.9285
+Training loss (for one batch) at step 307: 0.1988
+Seen so far: 19712 samples
+Training acc over epoch: 0.9285
+Training loss (for one batch) at step 308: 0.1829
+Seen so far: 19776 samples
+Training acc over epoch: 0.9286
+Training loss (for one batch) at step 309: 0.2541
+Seen so far: 19840 samples
+Training acc over epoch: 0.9286
+Training loss (for one batch) at step 310: 0.1864
+Seen so far: 19904 samples
+Training acc over epoch: 0.9287
+Training loss (for one batch) at step 311: 0.2212
+Seen so far: 19968 samples
+Training acc over epoch: 0.9286
+Training loss (for one batch) at step 312: 0.1850
+Seen so far: 20032 samples
+Training acc over epoch: 0.9288
+Testing Accuracy: 86.96%
